@@ -1,0 +1,31 @@
+# Профиль AppArmor для изолированного воркера обработки платежей:
+# /etc/apparmor.d/usr.local.bin.payment_worker
+
+#include <tunables/global>
+
+/usr/local/bin/payment_worker flags=(complain) {
+  #include <abstractions/base>
+  #include <abstractions/nameservice>
+
+  # Сетевые возможности
+  network inet stream,
+  network inet6 stream,
+
+  # Разрешение чтения исполняемого файла и разделяемых библиотек
+  /usr/local/bin/payment_worker mr,
+  /usr/lib/** mr,
+  /lib/** mr,
+
+  # Конфигурация и логи приложения
+  /etc/payment_gateway/*.json r,
+  /var/log/payment_worker.log rw,
+
+  # Доступ к временным файлам
+  /tmp/worker_*.tmp rw,
+
+  # Явный запрет доступа к чувствительным файлам ОС
+  deny /etc/shadow r,
+  deny /etc/gshadow r,
+  deny /root/** rwklx,
+  deny /home/** rwklx,
+}

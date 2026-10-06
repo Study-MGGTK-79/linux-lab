@@ -1,0 +1,1340 @@
+Oct 04 18:00:52 bastion sshd[2227]: Accepted publickey for sysadmin from 10.0.10.15 port 46121 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 18:00:52 bastion sshd[2227]: pam_unix(sshd:session): session opened for user sysadmin by (uid=0)
+Oct 04 18:00:52 bastion sudo: sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 18:00:52 bastion sudo: pam_unix(sudo:session): session opened for user root by sysadmin(uid=1000)
+Oct 04 18:00:52 bastion sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 18:12:48 bastion sshd[2833]: Accepted publickey for sysadmin from 10.0.10.15 port 49468 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 18:12:48 bastion sshd[2833]: pam_unix(sshd:session): session opened for user sysadmin by (uid=0)
+Oct 04 18:24:23 bastion sshd[2456]: Accepted publickey for sysadmin from 10.0.10.15 port 48580 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 18:24:23 bastion sshd[2456]: pam_unix(sshd:session): session opened for user sysadmin by (uid=0)
+Oct 04 18:36:49 bastion sshd[2964]: Accepted publickey for alice from 10.0.10.15 port 52125 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 18:36:49 bastion sshd[2964]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 04 18:48:42 bastion sshd[2451]: Accepted publickey for deploy from 10.0.10.15 port 56562 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 18:48:42 bastion sshd[2451]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct 04 18:48:42 bastion sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 18:48:42 bastion sudo: pam_unix(sudo:session): session opened for user root by deploy(uid=1000)
+Oct 04 18:48:42 bastion sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 19:00:17 bastion sshd[2655]: Accepted publickey for bob from 10.0.10.15 port 58388 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 19:00:17 bastion sshd[2655]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 04 19:00:17 bastion sudo: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 19:00:17 bastion sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1000)
+Oct 04 19:00:17 bastion sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 19:12:47 bastion sshd[2185]: Accepted publickey for bob from 10.0.10.15 port 49998 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 19:12:47 bastion sshd[2185]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 04 19:12:47 bastion sudo: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 19:12:47 bastion sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1000)
+Oct 04 19:12:47 bastion sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 19:24:54 bastion sshd[2945]: Accepted publickey for alice from 10.0.10.15 port 54787 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 19:24:54 bastion sshd[2945]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 04 19:36:30 bastion sshd[2747]: Accepted publickey for alice from 10.0.10.15 port 50360 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 19:36:30 bastion sshd[2747]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 04 19:36:30 bastion sudo: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 19:36:30 bastion sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1000)
+Oct 04 19:36:30 bastion sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 19:48:05 bastion sshd[2877]: Accepted publickey for sysadmin from 10.0.10.15 port 53510 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 19:48:05 bastion sshd[2877]: pam_unix(sshd:session): session opened for user sysadmin by (uid=0)
+Oct 04 19:48:05 bastion sudo: sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 19:48:05 bastion sudo: pam_unix(sudo:session): session opened for user root by sysadmin(uid=1000)
+Oct 04 19:48:05 bastion sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 20:00:36 bastion sshd[2208]: Accepted publickey for alice from 10.0.10.15 port 53702 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 20:00:36 bastion sshd[2208]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 04 20:00:36 bastion sudo: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 20:00:36 bastion sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1000)
+Oct 04 20:00:36 bastion sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 20:12:28 bastion sshd[2818]: Accepted publickey for bob from 10.0.10.15 port 50638 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 20:12:28 bastion sshd[2818]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 04 20:24:15 bastion sshd[2406]: Accepted publickey for bob from 10.0.10.15 port 49890 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 20:24:15 bastion sshd[2406]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 04 20:36:39 bastion sshd[2407]: Accepted publickey for bob from 10.0.10.15 port 40964 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 20:36:39 bastion sshd[2407]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 04 20:48:37 bastion sshd[2448]: Accepted publickey for bob from 10.0.10.15 port 47937 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 20:48:37 bastion sshd[2448]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 04 21:00:32 bastion sshd[2307]: Accepted publickey for deploy from 10.0.10.15 port 40730 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 21:00:32 bastion sshd[2307]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct 04 21:12:17 bastion sshd[2825]: Accepted publickey for deploy from 10.0.10.15 port 53357 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 21:12:17 bastion sshd[2825]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct 04 21:12:17 bastion sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 21:12:17 bastion sudo: pam_unix(sudo:session): session opened for user root by deploy(uid=1000)
+Oct 04 21:12:17 bastion sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 21:15:01 bastion sshd[7054]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:15:01 bastion sshd[7054]: Failed password for jenkins from 192.0.2.15 port 43018 ssh2
+Oct 04 21:15:01 bastion sshd[7054]: Received disconnect from 192.0.2.15 port 43018:11: Bye Bye [preauth]
+Oct 04 21:15:05 bastion sshd[5355]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:15:05 bastion sshd[5355]: Failed password for git from 192.0.2.15 port 45192 ssh2
+Oct 04 21:15:05 bastion sshd[5355]: Received disconnect from 192.0.2.15 port 45192:11: Bye Bye [preauth]
+Oct 04 21:15:07 bastion sshd[5869]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:15:07 bastion sshd[5869]: Failed password for jenkins from 192.0.2.15 port 32689 ssh2
+Oct 04 21:15:07 bastion sshd[5869]: Received disconnect from 192.0.2.15 port 32689:11: Bye Bye [preauth]
+Oct 04 21:15:09 bastion sshd[5437]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:15:09 bastion sshd[5437]: Failed password for ansible from 192.0.2.15 port 35740 ssh2
+Oct 04 21:15:09 bastion sshd[5437]: Received disconnect from 192.0.2.15 port 35740:11: Bye Bye [preauth]
+Oct 04 21:15:10 bastion sshd[4175]: Invalid user nagios from 192.0.2.15 port 41943
+Oct 04 21:15:10 bastion sshd[4175]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:15:10 bastion sshd[4175]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:15:10 bastion sshd[4175]: Failed password for invalid user nagios from 192.0.2.15 port 41943 ssh2
+Oct 04 21:15:10 bastion sshd[4175]: Received disconnect from 192.0.2.15 port 41943:11: Bye Bye [preauth]
+Oct 04 21:15:13 bastion sshd[5939]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:15:13 bastion sshd[5939]: Failed password for support from 192.0.2.15 port 43403 ssh2
+Oct 04 21:15:13 bastion sshd[5939]: Received disconnect from 192.0.2.15 port 43403:11: Bye Bye [preauth]
+Oct 04 21:15:15 bastion sshd[6460]: Invalid user ftpuser from 192.0.2.15 port 53495
+Oct 04 21:15:15 bastion sshd[6460]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:15:15 bastion sshd[6460]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:15:15 bastion sshd[6460]: Failed password for invalid user ftpuser from 192.0.2.15 port 53495 ssh2
+Oct 04 21:15:15 bastion sshd[6460]: Received disconnect from 192.0.2.15 port 53495:11: Bye Bye [preauth]
+Oct 04 21:15:17 bastion sshd[7943]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:15:17 bastion sshd[7943]: Failed password for git from 192.0.2.15 port 43489 ssh2
+Oct 04 21:15:17 bastion sshd[7943]: Received disconnect from 192.0.2.15 port 43489:11: Bye Bye [preauth]
+Oct 04 21:15:21 bastion sshd[6365]: Invalid user minecraft from 192.0.2.15 port 36398
+Oct 04 21:15:21 bastion sshd[6365]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:15:21 bastion sshd[6365]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:15:21 bastion sshd[6365]: Failed password for invalid user minecraft from 192.0.2.15 port 36398 ssh2
+Oct 04 21:15:21 bastion sshd[6365]: Received disconnect from 192.0.2.15 port 36398:11: Bye Bye [preauth]
+Oct 04 21:15:22 bastion sshd[4926]: Invalid user oracle from 203.0.113.88 port 42508
+Oct 04 21:15:22 bastion sshd[4926]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:15:22 bastion sshd[4926]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:15:22 bastion sshd[4926]: Failed password for invalid user oracle from 203.0.113.88 port 42508 ssh2
+Oct 04 21:15:22 bastion sshd[4926]: Received disconnect from 203.0.113.88 port 42508:11: Bye Bye [preauth]
+Oct 04 21:15:23 bastion sshd[6918]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:15:23 bastion sshd[6918]: Failed password for user from 203.0.113.88 port 47382 ssh2
+Oct 04 21:15:23 bastion sshd[6918]: Received disconnect from 203.0.113.88 port 47382:11: Bye Bye [preauth]
+Oct 04 21:15:27 bastion sshd[3733]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:15:27 bastion sshd[3733]: Failed password for ubuntu from 203.0.113.88 port 64339 ssh2
+Oct 04 21:15:27 bastion sshd[3733]: Received disconnect from 203.0.113.88 port 64339:11: Bye Bye [preauth]
+Oct 04 21:15:31 bastion sshd[3211]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:15:31 bastion sshd[3211]: Failed password for admin from 203.0.113.88 port 53513 ssh2
+Oct 04 21:15:31 bastion sshd[3211]: Received disconnect from 203.0.113.88 port 53513:11: Bye Bye [preauth]
+Oct 04 21:15:32 bastion sshd[4796]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:15:32 bastion sshd[4796]: Failed password for ansible from 192.0.2.15 port 30115 ssh2
+Oct 04 21:15:32 bastion sshd[4796]: Received disconnect from 192.0.2.15 port 30115:11: Bye Bye [preauth]
+Oct 04 21:15:34 bastion sshd[8080]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:15:34 bastion sshd[8080]: Failed password for test from 203.0.113.88 port 59985 ssh2
+Oct 04 21:15:34 bastion sshd[8080]: Received disconnect from 203.0.113.88 port 59985:11: Bye Bye [preauth]
+Oct 04 21:15:35 bastion sshd[3968]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:15:35 bastion sshd[3968]: Failed password for guest from 203.0.113.88 port 54845 ssh2
+Oct 04 21:15:35 bastion sshd[3968]: Received disconnect from 203.0.113.88 port 54845:11: Bye Bye [preauth]
+Oct 04 21:15:36 bastion sshd[8235]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:15:36 bastion sshd[8235]: Failed password for guest from 203.0.113.88 port 59044 ssh2
+Oct 04 21:15:36 bastion sshd[8235]: Received disconnect from 203.0.113.88 port 59044:11: Bye Bye [preauth]
+Oct 04 21:15:37 bastion sshd[3943]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:15:37 bastion sshd[3943]: Failed password for admin from 203.0.113.88 port 45797 ssh2
+Oct 04 21:15:37 bastion sshd[3943]: Received disconnect from 203.0.113.88 port 45797:11: Bye Bye [preauth]
+Oct 04 21:15:39 bastion sshd[4310]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:15:39 bastion sshd[4310]: Failed password for support from 192.0.2.15 port 53801 ssh2
+Oct 04 21:15:39 bastion sshd[4310]: Received disconnect from 192.0.2.15 port 53801:11: Bye Bye [preauth]
+Oct 04 21:15:42 bastion sshd[7013]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:15:42 bastion sshd[7013]: Failed password for ubuntu from 203.0.113.88 port 33891 ssh2
+Oct 04 21:15:42 bastion sshd[7013]: Received disconnect from 203.0.113.88 port 33891:11: Bye Bye [preauth]
+Oct 04 21:15:43 bastion sshd[8244]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:15:43 bastion sshd[8244]: Failed password for root from 203.0.113.88 port 44986 ssh2
+Oct 04 21:15:43 bastion sshd[8244]: Received disconnect from 203.0.113.88 port 44986:11: Bye Bye [preauth]
+Oct 04 21:15:45 bastion sshd[7088]: Invalid user ftpuser from 192.0.2.15 port 51738
+Oct 04 21:15:45 bastion sshd[7088]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:15:45 bastion sshd[7088]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:15:45 bastion sshd[7088]: Failed password for invalid user ftpuser from 192.0.2.15 port 51738 ssh2
+Oct 04 21:15:45 bastion sshd[7088]: Received disconnect from 192.0.2.15 port 51738:11: Bye Bye [preauth]
+Oct 04 21:15:47 bastion sshd[8640]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:15:47 bastion sshd[8640]: Failed password for test from 203.0.113.88 port 49474 ssh2
+Oct 04 21:15:47 bastion sshd[8640]: Received disconnect from 203.0.113.88 port 49474:11: Bye Bye [preauth]
+Oct 04 21:15:48 bastion sshd[6359]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:15:48 bastion sshd[6359]: Failed password for admin from 203.0.113.88 port 33234 ssh2
+Oct 04 21:15:48 bastion sshd[6359]: Received disconnect from 203.0.113.88 port 33234:11: Bye Bye [preauth]
+Oct 04 21:15:51 bastion sshd[4126]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:15:51 bastion sshd[4126]: Failed password for ansible from 192.0.2.15 port 49120 ssh2
+Oct 04 21:15:51 bastion sshd[4126]: Received disconnect from 192.0.2.15 port 49120:11: Bye Bye [preauth]
+Oct 04 21:15:54 bastion sshd[4850]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:15:54 bastion sshd[4850]: Failed password for test from 203.0.113.88 port 53827 ssh2
+Oct 04 21:15:54 bastion sshd[4850]: Received disconnect from 203.0.113.88 port 53827:11: Bye Bye [preauth]
+Oct 04 21:15:56 bastion sshd[4032]: Invalid user minecraft from 192.0.2.15 port 58712
+Oct 04 21:15:56 bastion sshd[4032]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:15:56 bastion sshd[4032]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:15:56 bastion sshd[4032]: Failed password for invalid user minecraft from 192.0.2.15 port 58712 ssh2
+Oct 04 21:15:56 bastion sshd[4032]: Received disconnect from 192.0.2.15 port 58712:11: Bye Bye [preauth]
+Oct 04 21:16:00 bastion sshd[7031]: Invalid user nagios from 192.0.2.15 port 34300
+Oct 04 21:16:00 bastion sshd[7031]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:16:00 bastion sshd[7031]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:16:00 bastion sshd[7031]: Failed password for invalid user nagios from 192.0.2.15 port 34300 ssh2
+Oct 04 21:16:00 bastion sshd[7031]: Received disconnect from 192.0.2.15 port 34300:11: Bye Bye [preauth]
+Oct 04 21:16:02 bastion sshd[3458]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:16:02 bastion sshd[3458]: Failed password for jenkins from 192.0.2.15 port 42156 ssh2
+Oct 04 21:16:02 bastion sshd[3458]: Received disconnect from 192.0.2.15 port 42156:11: Bye Bye [preauth]
+Oct 04 21:16:06 bastion sshd[3198]: Invalid user nagios from 192.0.2.15 port 43115
+Oct 04 21:16:06 bastion sshd[3198]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:16:06 bastion sshd[3198]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:16:06 bastion sshd[3198]: Failed password for invalid user nagios from 192.0.2.15 port 43115 ssh2
+Oct 04 21:16:06 bastion sshd[3198]: Received disconnect from 192.0.2.15 port 43115:11: Bye Bye [preauth]
+Oct 04 21:16:09 bastion sshd[6219]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:16:09 bastion sshd[6219]: Failed password for support from 192.0.2.15 port 40645 ssh2
+Oct 04 21:16:09 bastion sshd[6219]: Received disconnect from 192.0.2.15 port 40645:11: Bye Bye [preauth]
+Oct 04 21:16:12 bastion sshd[8335]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:16:12 bastion sshd[8335]: Failed password for admin from 203.0.113.88 port 62553 ssh2
+Oct 04 21:16:12 bastion sshd[8335]: Received disconnect from 203.0.113.88 port 62553:11: Bye Bye [preauth]
+Oct 04 21:16:14 bastion sshd[3662]: Invalid user oracle from 203.0.113.88 port 38567
+Oct 04 21:16:14 bastion sshd[3662]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:16:14 bastion sshd[3662]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:16:14 bastion sshd[3662]: Failed password for invalid user oracle from 203.0.113.88 port 38567 ssh2
+Oct 04 21:16:14 bastion sshd[3662]: Received disconnect from 203.0.113.88 port 38567:11: Bye Bye [preauth]
+Oct 04 21:16:17 bastion sshd[5209]: Invalid user oracle from 203.0.113.88 port 40225
+Oct 04 21:16:17 bastion sshd[5209]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:16:17 bastion sshd[5209]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:16:17 bastion sshd[5209]: Failed password for invalid user oracle from 203.0.113.88 port 40225 ssh2
+Oct 04 21:16:17 bastion sshd[5209]: Received disconnect from 203.0.113.88 port 40225:11: Bye Bye [preauth]
+Oct 04 21:16:20 bastion sshd[4849]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:16:20 bastion sshd[4849]: Failed password for root from 203.0.113.88 port 32065 ssh2
+Oct 04 21:16:20 bastion sshd[4849]: Received disconnect from 203.0.113.88 port 32065:11: Bye Bye [preauth]
+Oct 04 21:16:23 bastion sshd[6726]: Invalid user oracle from 203.0.113.88 port 44190
+Oct 04 21:16:23 bastion sshd[6726]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:16:23 bastion sshd[6726]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:16:23 bastion sshd[6726]: Failed password for invalid user oracle from 203.0.113.88 port 44190 ssh2
+Oct 04 21:16:23 bastion sshd[6726]: Received disconnect from 203.0.113.88 port 44190:11: Bye Bye [preauth]
+Oct 04 21:16:26 bastion sshd[7651]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:16:26 bastion sshd[7651]: Failed password for support from 192.0.2.15 port 57476 ssh2
+Oct 04 21:16:26 bastion sshd[7651]: Received disconnect from 192.0.2.15 port 57476:11: Bye Bye [preauth]
+Oct 04 21:16:28 bastion sshd[7415]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:16:28 bastion sshd[7415]: Failed password for git from 192.0.2.15 port 62884 ssh2
+Oct 04 21:16:28 bastion sshd[7415]: Received disconnect from 192.0.2.15 port 62884:11: Bye Bye [preauth]
+Oct 04 21:16:30 bastion sshd[5875]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:16:30 bastion sshd[5875]: Failed password for ubuntu from 203.0.113.88 port 61985 ssh2
+Oct 04 21:16:30 bastion sshd[5875]: Received disconnect from 203.0.113.88 port 61985:11: Bye Bye [preauth]
+Oct 04 21:16:32 bastion sshd[7813]: Invalid user nagios from 192.0.2.15 port 42142
+Oct 04 21:16:32 bastion sshd[7813]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:16:32 bastion sshd[7813]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:16:32 bastion sshd[7813]: Failed password for invalid user nagios from 192.0.2.15 port 42142 ssh2
+Oct 04 21:16:32 bastion sshd[7813]: Received disconnect from 192.0.2.15 port 42142:11: Bye Bye [preauth]
+Oct 04 21:16:35 bastion sshd[4654]: Invalid user ftpuser from 192.0.2.15 port 62730
+Oct 04 21:16:35 bastion sshd[4654]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:16:35 bastion sshd[4654]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:16:35 bastion sshd[4654]: Failed password for invalid user ftpuser from 192.0.2.15 port 62730 ssh2
+Oct 04 21:16:35 bastion sshd[4654]: Received disconnect from 192.0.2.15 port 62730:11: Bye Bye [preauth]
+Oct 04 21:16:39 bastion sshd[7840]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:16:39 bastion sshd[7840]: Failed password for support from 192.0.2.15 port 47500 ssh2
+Oct 04 21:16:39 bastion sshd[7840]: Received disconnect from 192.0.2.15 port 47500:11: Bye Bye [preauth]
+Oct 04 21:16:40 bastion sshd[4894]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:16:40 bastion sshd[4894]: Failed password for user from 203.0.113.88 port 49070 ssh2
+Oct 04 21:16:40 bastion sshd[4894]: Received disconnect from 203.0.113.88 port 49070:11: Bye Bye [preauth]
+Oct 04 21:16:43 bastion sshd[7674]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:16:43 bastion sshd[7674]: Failed password for root from 203.0.113.88 port 48853 ssh2
+Oct 04 21:16:43 bastion sshd[7674]: Received disconnect from 203.0.113.88 port 48853:11: Bye Bye [preauth]
+Oct 04 21:16:46 bastion sshd[6525]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:16:46 bastion sshd[6525]: Failed password for git from 192.0.2.15 port 62096 ssh2
+Oct 04 21:16:46 bastion sshd[6525]: Received disconnect from 192.0.2.15 port 62096:11: Bye Bye [preauth]
+Oct 04 21:16:48 bastion sshd[5690]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:16:48 bastion sshd[5690]: Failed password for jenkins from 192.0.2.15 port 59564 ssh2
+Oct 04 21:16:48 bastion sshd[5690]: Received disconnect from 192.0.2.15 port 59564:11: Bye Bye [preauth]
+Oct 04 21:16:50 bastion sshd[7920]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:16:50 bastion sshd[7920]: Failed password for test from 203.0.113.88 port 45008 ssh2
+Oct 04 21:16:50 bastion sshd[7920]: Received disconnect from 203.0.113.88 port 45008:11: Bye Bye [preauth]
+Oct 04 21:16:54 bastion sshd[7495]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=postgres
+Oct 04 21:16:54 bastion sshd[7495]: Failed password for postgres from 203.0.113.88 port 60971 ssh2
+Oct 04 21:16:54 bastion sshd[7495]: Received disconnect from 203.0.113.88 port 60971:11: Bye Bye [preauth]
+Oct 04 21:16:55 bastion sshd[4099]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:16:55 bastion sshd[4099]: Failed password for ansible from 192.0.2.15 port 43911 ssh2
+Oct 04 21:16:55 bastion sshd[4099]: Received disconnect from 192.0.2.15 port 43911:11: Bye Bye [preauth]
+Oct 04 21:16:56 bastion sshd[4701]: Invalid user nagios from 192.0.2.15 port 62321
+Oct 04 21:16:56 bastion sshd[4701]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:16:56 bastion sshd[4701]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:16:56 bastion sshd[4701]: Failed password for invalid user nagios from 192.0.2.15 port 62321 ssh2
+Oct 04 21:16:56 bastion sshd[4701]: Received disconnect from 192.0.2.15 port 62321:11: Bye Bye [preauth]
+Oct 04 21:16:58 bastion sshd[8575]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:16:58 bastion sshd[8575]: Failed password for git from 192.0.2.15 port 59871 ssh2
+Oct 04 21:16:58 bastion sshd[8575]: Received disconnect from 192.0.2.15 port 59871:11: Bye Bye [preauth]
+Oct 04 21:17:00 bastion sshd[7988]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:17:00 bastion sshd[7988]: Failed password for user from 203.0.113.88 port 57405 ssh2
+Oct 04 21:17:00 bastion sshd[7988]: Received disconnect from 203.0.113.88 port 57405:11: Bye Bye [preauth]
+Oct 04 21:17:03 bastion sshd[8791]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:17:03 bastion sshd[8791]: Failed password for admin from 203.0.113.88 port 42911 ssh2
+Oct 04 21:17:03 bastion sshd[8791]: Received disconnect from 203.0.113.88 port 42911:11: Bye Bye [preauth]
+Oct 04 21:17:06 bastion sshd[4506]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:17:06 bastion sshd[4506]: Failed password for ansible from 192.0.2.15 port 46760 ssh2
+Oct 04 21:17:06 bastion sshd[4506]: Received disconnect from 192.0.2.15 port 46760:11: Bye Bye [preauth]
+Oct 04 21:17:10 bastion sshd[8220]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:17:10 bastion sshd[8220]: Failed password for jenkins from 192.0.2.15 port 37000 ssh2
+Oct 04 21:17:10 bastion sshd[8220]: Received disconnect from 192.0.2.15 port 37000:11: Bye Bye [preauth]
+Oct 04 21:17:12 bastion sshd[6021]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:17:12 bastion sshd[6021]: Failed password for ansible from 192.0.2.15 port 35655 ssh2
+Oct 04 21:17:12 bastion sshd[6021]: Received disconnect from 192.0.2.15 port 35655:11: Bye Bye [preauth]
+Oct 04 21:17:16 bastion sshd[3317]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:17:16 bastion sshd[3317]: Failed password for jenkins from 192.0.2.15 port 36888 ssh2
+Oct 04 21:17:16 bastion sshd[3317]: Received disconnect from 192.0.2.15 port 36888:11: Bye Bye [preauth]
+Oct 04 21:17:19 bastion sshd[7483]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:17:19 bastion sshd[7483]: Failed password for admin from 203.0.113.88 port 34341 ssh2
+Oct 04 21:17:19 bastion sshd[7483]: Received disconnect from 203.0.113.88 port 34341:11: Bye Bye [preauth]
+Oct 04 21:17:23 bastion sshd[8818]: Invalid user minecraft from 192.0.2.15 port 60280
+Oct 04 21:17:23 bastion sshd[8818]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:17:23 bastion sshd[8818]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:17:23 bastion sshd[8818]: Failed password for invalid user minecraft from 192.0.2.15 port 60280 ssh2
+Oct 04 21:17:23 bastion sshd[8818]: Received disconnect from 192.0.2.15 port 60280:11: Bye Bye [preauth]
+Oct 04 21:17:26 bastion sshd[5118]: Invalid user nagios from 192.0.2.15 port 57084
+Oct 04 21:17:26 bastion sshd[5118]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:17:26 bastion sshd[5118]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:17:26 bastion sshd[5118]: Failed password for invalid user nagios from 192.0.2.15 port 57084 ssh2
+Oct 04 21:17:26 bastion sshd[5118]: Received disconnect from 192.0.2.15 port 57084:11: Bye Bye [preauth]
+Oct 04 21:17:30 bastion sshd[5478]: Invalid user minecraft from 192.0.2.15 port 41447
+Oct 04 21:17:30 bastion sshd[5478]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:17:30 bastion sshd[5478]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:17:30 bastion sshd[5478]: Failed password for invalid user minecraft from 192.0.2.15 port 41447 ssh2
+Oct 04 21:17:30 bastion sshd[5478]: Received disconnect from 192.0.2.15 port 41447:11: Bye Bye [preauth]
+Oct 04 21:17:32 bastion sshd[5301]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:17:32 bastion sshd[5301]: Failed password for git from 192.0.2.15 port 34242 ssh2
+Oct 04 21:17:32 bastion sshd[5301]: Received disconnect from 192.0.2.15 port 34242:11: Bye Bye [preauth]
+Oct 04 21:17:36 bastion sshd[5095]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:17:36 bastion sshd[5095]: Failed password for test from 203.0.113.88 port 63808 ssh2
+Oct 04 21:17:36 bastion sshd[5095]: Received disconnect from 203.0.113.88 port 63808:11: Bye Bye [preauth]
+Oct 04 21:17:40 bastion sshd[4077]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:17:40 bastion sshd[4077]: Failed password for support from 192.0.2.15 port 50418 ssh2
+Oct 04 21:17:40 bastion sshd[4077]: Received disconnect from 192.0.2.15 port 50418:11: Bye Bye [preauth]
+Oct 04 21:17:41 bastion sshd[7753]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:17:41 bastion sshd[7753]: Failed password for guest from 203.0.113.88 port 50375 ssh2
+Oct 04 21:17:41 bastion sshd[7753]: Received disconnect from 203.0.113.88 port 50375:11: Bye Bye [preauth]
+Oct 04 21:17:45 bastion sshd[3799]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:17:45 bastion sshd[3799]: Failed password for admin from 203.0.113.88 port 40423 ssh2
+Oct 04 21:17:45 bastion sshd[3799]: Received disconnect from 203.0.113.88 port 40423:11: Bye Bye [preauth]
+Oct 04 21:17:47 bastion sshd[5162]: Invalid user ftpuser from 192.0.2.15 port 34892
+Oct 04 21:17:47 bastion sshd[5162]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:17:47 bastion sshd[5162]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:17:47 bastion sshd[5162]: Failed password for invalid user ftpuser from 192.0.2.15 port 34892 ssh2
+Oct 04 21:17:47 bastion sshd[5162]: Received disconnect from 192.0.2.15 port 34892:11: Bye Bye [preauth]
+Oct 04 21:17:50 bastion sshd[4879]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:17:50 bastion sshd[4879]: Failed password for ansible from 192.0.2.15 port 49663 ssh2
+Oct 04 21:17:50 bastion sshd[4879]: Received disconnect from 192.0.2.15 port 49663:11: Bye Bye [preauth]
+Oct 04 21:17:52 bastion sshd[7342]: Invalid user oracle from 203.0.113.88 port 64105
+Oct 04 21:17:52 bastion sshd[7342]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:17:52 bastion sshd[7342]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:17:52 bastion sshd[7342]: Failed password for invalid user oracle from 203.0.113.88 port 64105 ssh2
+Oct 04 21:17:52 bastion sshd[7342]: Received disconnect from 203.0.113.88 port 64105:11: Bye Bye [preauth]
+Oct 04 21:17:55 bastion sshd[3678]: Invalid user oracle from 203.0.113.88 port 65000
+Oct 04 21:17:55 bastion sshd[3678]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:17:55 bastion sshd[3678]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:17:55 bastion sshd[3678]: Failed password for invalid user oracle from 203.0.113.88 port 65000 ssh2
+Oct 04 21:17:55 bastion sshd[3678]: Received disconnect from 203.0.113.88 port 65000:11: Bye Bye [preauth]
+Oct 04 21:17:58 bastion sshd[7635]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:17:58 bastion sshd[7635]: Failed password for support from 192.0.2.15 port 50581 ssh2
+Oct 04 21:17:58 bastion sshd[7635]: Received disconnect from 192.0.2.15 port 50581:11: Bye Bye [preauth]
+Oct 04 21:18:01 bastion sshd[7192]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:18:01 bastion sshd[7192]: Failed password for support from 192.0.2.15 port 49881 ssh2
+Oct 04 21:18:01 bastion sshd[7192]: Received disconnect from 192.0.2.15 port 49881:11: Bye Bye [preauth]
+Oct 04 21:18:02 bastion sshd[8208]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:18:02 bastion sshd[8208]: Failed password for ubuntu from 203.0.113.88 port 32202 ssh2
+Oct 04 21:18:02 bastion sshd[8208]: Received disconnect from 203.0.113.88 port 32202:11: Bye Bye [preauth]
+Oct 04 21:18:05 bastion sshd[7527]: Invalid user oracle from 203.0.113.88 port 61603
+Oct 04 21:18:05 bastion sshd[7527]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:18:05 bastion sshd[7527]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:18:05 bastion sshd[7527]: Failed password for invalid user oracle from 203.0.113.88 port 61603 ssh2
+Oct 04 21:18:05 bastion sshd[7527]: Received disconnect from 203.0.113.88 port 61603:11: Bye Bye [preauth]
+Oct 04 21:18:09 bastion sshd[7902]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:18:09 bastion sshd[7902]: Failed password for ansible from 192.0.2.15 port 64522 ssh2
+Oct 04 21:18:09 bastion sshd[7902]: Received disconnect from 192.0.2.15 port 64522:11: Bye Bye [preauth]
+Oct 04 21:18:13 bastion sshd[6248]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:18:13 bastion sshd[6248]: Failed password for support from 192.0.2.15 port 35137 ssh2
+Oct 04 21:18:13 bastion sshd[6248]: Received disconnect from 192.0.2.15 port 35137:11: Bye Bye [preauth]
+Oct 04 21:18:14 bastion sshd[7187]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:18:14 bastion sshd[7187]: Failed password for support from 192.0.2.15 port 49802 ssh2
+Oct 04 21:18:14 bastion sshd[7187]: Received disconnect from 192.0.2.15 port 49802:11: Bye Bye [preauth]
+Oct 04 21:18:17 bastion sshd[3438]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:18:17 bastion sshd[3438]: Failed password for jenkins from 192.0.2.15 port 55634 ssh2
+Oct 04 21:18:17 bastion sshd[3438]: Received disconnect from 192.0.2.15 port 55634:11: Bye Bye [preauth]
+Oct 04 21:18:18 bastion sshd[4674]: Invalid user oracle from 203.0.113.88 port 37992
+Oct 04 21:18:18 bastion sshd[4674]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:18:18 bastion sshd[4674]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:18:18 bastion sshd[4674]: Failed password for invalid user oracle from 203.0.113.88 port 37992 ssh2
+Oct 04 21:18:18 bastion sshd[4674]: Received disconnect from 203.0.113.88 port 37992:11: Bye Bye [preauth]
+Oct 04 21:18:19 bastion sshd[3793]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:18:19 bastion sshd[3793]: Failed password for guest from 203.0.113.88 port 42021 ssh2
+Oct 04 21:18:19 bastion sshd[3793]: Received disconnect from 203.0.113.88 port 42021:11: Bye Bye [preauth]
+Oct 04 21:18:22 bastion sshd[3811]: Invalid user oracle from 203.0.113.88 port 39629
+Oct 04 21:18:22 bastion sshd[3811]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:18:22 bastion sshd[3811]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:18:22 bastion sshd[3811]: Failed password for invalid user oracle from 203.0.113.88 port 39629 ssh2
+Oct 04 21:18:22 bastion sshd[3811]: Received disconnect from 203.0.113.88 port 39629:11: Bye Bye [preauth]
+Oct 04 21:18:26 bastion sshd[3287]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:18:26 bastion sshd[3287]: Failed password for support from 192.0.2.15 port 53295 ssh2
+Oct 04 21:18:26 bastion sshd[3287]: Received disconnect from 192.0.2.15 port 53295:11: Bye Bye [preauth]
+Oct 04 21:18:29 bastion sshd[5355]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:18:29 bastion sshd[5355]: Failed password for support from 192.0.2.15 port 45145 ssh2
+Oct 04 21:18:29 bastion sshd[5355]: Received disconnect from 192.0.2.15 port 45145:11: Bye Bye [preauth]
+Oct 04 21:18:31 bastion sshd[7717]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:18:31 bastion sshd[7717]: Failed password for root from 203.0.113.88 port 36008 ssh2
+Oct 04 21:18:31 bastion sshd[7717]: Received disconnect from 203.0.113.88 port 36008:11: Bye Bye [preauth]
+Oct 04 21:18:34 bastion sshd[3434]: Invalid user oracle from 203.0.113.88 port 47195
+Oct 04 21:18:34 bastion sshd[3434]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:18:34 bastion sshd[3434]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:18:34 bastion sshd[3434]: Failed password for invalid user oracle from 203.0.113.88 port 47195 ssh2
+Oct 04 21:18:34 bastion sshd[3434]: Received disconnect from 203.0.113.88 port 47195:11: Bye Bye [preauth]
+Oct 04 21:18:38 bastion sshd[6845]: Invalid user minecraft from 192.0.2.15 port 60839
+Oct 04 21:18:38 bastion sshd[6845]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:18:38 bastion sshd[6845]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:18:38 bastion sshd[6845]: Failed password for invalid user minecraft from 192.0.2.15 port 60839 ssh2
+Oct 04 21:18:38 bastion sshd[6845]: Received disconnect from 192.0.2.15 port 60839:11: Bye Bye [preauth]
+Oct 04 21:18:42 bastion sshd[3163]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:18:42 bastion sshd[3163]: Failed password for support from 192.0.2.15 port 63221 ssh2
+Oct 04 21:18:42 bastion sshd[3163]: Received disconnect from 192.0.2.15 port 63221:11: Bye Bye [preauth]
+Oct 04 21:18:43 bastion sshd[3418]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:18:43 bastion sshd[3418]: Failed password for guest from 203.0.113.88 port 60572 ssh2
+Oct 04 21:18:43 bastion sshd[3418]: Received disconnect from 203.0.113.88 port 60572:11: Bye Bye [preauth]
+Oct 04 21:18:46 bastion sshd[6190]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:18:46 bastion sshd[6190]: Failed password for user from 203.0.113.88 port 52878 ssh2
+Oct 04 21:18:46 bastion sshd[6190]: Received disconnect from 203.0.113.88 port 52878:11: Bye Bye [preauth]
+Oct 04 21:18:49 bastion sshd[8323]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:18:49 bastion sshd[8323]: Failed password for admin from 203.0.113.88 port 53952 ssh2
+Oct 04 21:18:49 bastion sshd[8323]: Received disconnect from 203.0.113.88 port 53952:11: Bye Bye [preauth]
+Oct 04 21:18:51 bastion sshd[3894]: Invalid user minecraft from 192.0.2.15 port 36877
+Oct 04 21:18:51 bastion sshd[3894]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:18:51 bastion sshd[3894]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:18:51 bastion sshd[3894]: Failed password for invalid user minecraft from 192.0.2.15 port 36877 ssh2
+Oct 04 21:18:51 bastion sshd[3894]: Received disconnect from 192.0.2.15 port 36877:11: Bye Bye [preauth]
+Oct 04 21:18:54 bastion sshd[6434]: Invalid user minecraft from 192.0.2.15 port 39284
+Oct 04 21:18:54 bastion sshd[6434]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:18:54 bastion sshd[6434]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:18:54 bastion sshd[6434]: Failed password for invalid user minecraft from 192.0.2.15 port 39284 ssh2
+Oct 04 21:18:54 bastion sshd[6434]: Received disconnect from 192.0.2.15 port 39284:11: Bye Bye [preauth]
+Oct 04 21:18:57 bastion sshd[4130]: Invalid user minecraft from 192.0.2.15 port 33281
+Oct 04 21:18:57 bastion sshd[4130]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:18:57 bastion sshd[4130]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:18:57 bastion sshd[4130]: Failed password for invalid user minecraft from 192.0.2.15 port 33281 ssh2
+Oct 04 21:18:57 bastion sshd[4130]: Received disconnect from 192.0.2.15 port 33281:11: Bye Bye [preauth]
+Oct 04 21:18:58 bastion sshd[6095]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:18:58 bastion sshd[6095]: Failed password for support from 192.0.2.15 port 56567 ssh2
+Oct 04 21:18:58 bastion sshd[6095]: Received disconnect from 192.0.2.15 port 56567:11: Bye Bye [preauth]
+Oct 04 21:19:00 bastion sshd[3534]: Invalid user nagios from 192.0.2.15 port 57828
+Oct 04 21:19:00 bastion sshd[3534]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:19:00 bastion sshd[3534]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:19:00 bastion sshd[3534]: Failed password for invalid user nagios from 192.0.2.15 port 57828 ssh2
+Oct 04 21:19:00 bastion sshd[3534]: Received disconnect from 192.0.2.15 port 57828:11: Bye Bye [preauth]
+Oct 04 21:19:03 bastion sshd[3841]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:19:03 bastion sshd[3841]: Failed password for admin from 203.0.113.88 port 36995 ssh2
+Oct 04 21:19:03 bastion sshd[3841]: Received disconnect from 203.0.113.88 port 36995:11: Bye Bye [preauth]
+Oct 04 21:19:06 bastion sshd[4159]: Invalid user ftpuser from 192.0.2.15 port 49669
+Oct 04 21:19:06 bastion sshd[4159]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:19:06 bastion sshd[4159]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:19:06 bastion sshd[4159]: Failed password for invalid user ftpuser from 192.0.2.15 port 49669 ssh2
+Oct 04 21:19:06 bastion sshd[4159]: Received disconnect from 192.0.2.15 port 49669:11: Bye Bye [preauth]
+Oct 04 21:19:09 bastion sshd[3237]: Invalid user oracle from 203.0.113.88 port 49472
+Oct 04 21:19:09 bastion sshd[3237]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:19:09 bastion sshd[3237]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:19:09 bastion sshd[3237]: Failed password for invalid user oracle from 203.0.113.88 port 49472 ssh2
+Oct 04 21:19:09 bastion sshd[3237]: Received disconnect from 203.0.113.88 port 49472:11: Bye Bye [preauth]
+Oct 04 21:19:13 bastion sshd[7899]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:19:13 bastion sshd[7899]: Failed password for admin from 203.0.113.88 port 56210 ssh2
+Oct 04 21:19:13 bastion sshd[7899]: Received disconnect from 203.0.113.88 port 56210:11: Bye Bye [preauth]
+Oct 04 21:19:16 bastion sshd[7067]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:19:16 bastion sshd[7067]: Failed password for jenkins from 192.0.2.15 port 40497 ssh2
+Oct 04 21:19:16 bastion sshd[7067]: Received disconnect from 192.0.2.15 port 40497:11: Bye Bye [preauth]
+Oct 04 21:19:18 bastion sshd[6934]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:19:18 bastion sshd[6934]: Failed password for test from 203.0.113.88 port 43066 ssh2
+Oct 04 21:19:18 bastion sshd[6934]: Received disconnect from 203.0.113.88 port 43066:11: Bye Bye [preauth]
+Oct 04 21:19:21 bastion sshd[3343]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:19:21 bastion sshd[3343]: Failed password for jenkins from 192.0.2.15 port 44106 ssh2
+Oct 04 21:19:21 bastion sshd[3343]: Received disconnect from 192.0.2.15 port 44106:11: Bye Bye [preauth]
+Oct 04 21:19:24 bastion sshd[6841]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:19:24 bastion sshd[6841]: Failed password for admin from 203.0.113.88 port 52539 ssh2
+Oct 04 21:19:24 bastion sshd[6841]: Received disconnect from 203.0.113.88 port 52539:11: Bye Bye [preauth]
+Oct 04 21:19:26 bastion sshd[4494]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:19:26 bastion sshd[4494]: Failed password for guest from 203.0.113.88 port 52987 ssh2
+Oct 04 21:19:26 bastion sshd[4494]: Received disconnect from 203.0.113.88 port 52987:11: Bye Bye [preauth]
+Oct 04 21:19:30 bastion sshd[7770]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:19:30 bastion sshd[7770]: Failed password for ansible from 192.0.2.15 port 62321 ssh2
+Oct 04 21:19:30 bastion sshd[7770]: Received disconnect from 192.0.2.15 port 62321:11: Bye Bye [preauth]
+Oct 04 21:19:34 bastion sshd[8831]: Invalid user nagios from 192.0.2.15 port 45324
+Oct 04 21:19:34 bastion sshd[8831]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:19:34 bastion sshd[8831]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:19:34 bastion sshd[8831]: Failed password for invalid user nagios from 192.0.2.15 port 45324 ssh2
+Oct 04 21:19:34 bastion sshd[8831]: Received disconnect from 192.0.2.15 port 45324:11: Bye Bye [preauth]
+Oct 04 21:19:37 bastion sshd[3585]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:19:37 bastion sshd[3585]: Failed password for ansible from 192.0.2.15 port 53867 ssh2
+Oct 04 21:19:37 bastion sshd[3585]: Received disconnect from 192.0.2.15 port 53867:11: Bye Bye [preauth]
+Oct 04 21:19:41 bastion sshd[5358]: Invalid user nagios from 192.0.2.15 port 52970
+Oct 04 21:19:41 bastion sshd[5358]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:19:41 bastion sshd[5358]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:19:41 bastion sshd[5358]: Failed password for invalid user nagios from 192.0.2.15 port 52970 ssh2
+Oct 04 21:19:41 bastion sshd[5358]: Received disconnect from 192.0.2.15 port 52970:11: Bye Bye [preauth]
+Oct 04 21:19:44 bastion sshd[7190]: Invalid user nagios from 192.0.2.15 port 41363
+Oct 04 21:19:44 bastion sshd[7190]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:19:44 bastion sshd[7190]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:19:44 bastion sshd[7190]: Failed password for invalid user nagios from 192.0.2.15 port 41363 ssh2
+Oct 04 21:19:44 bastion sshd[7190]: Received disconnect from 192.0.2.15 port 41363:11: Bye Bye [preauth]
+Oct 04 21:19:46 bastion sshd[6027]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:19:46 bastion sshd[6027]: Failed password for root from 203.0.113.88 port 38510 ssh2
+Oct 04 21:19:46 bastion sshd[6027]: Received disconnect from 203.0.113.88 port 38510:11: Bye Bye [preauth]
+Oct 04 21:19:49 bastion sshd[3985]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:19:49 bastion sshd[3985]: Failed password for user from 203.0.113.88 port 56185 ssh2
+Oct 04 21:19:49 bastion sshd[3985]: Received disconnect from 203.0.113.88 port 56185:11: Bye Bye [preauth]
+Oct 04 21:19:53 bastion sshd[8344]: Invalid user ftpuser from 192.0.2.15 port 30100
+Oct 04 21:19:53 bastion sshd[8344]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:19:53 bastion sshd[8344]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:19:53 bastion sshd[8344]: Failed password for invalid user ftpuser from 192.0.2.15 port 30100 ssh2
+Oct 04 21:19:53 bastion sshd[8344]: Received disconnect from 192.0.2.15 port 30100:11: Bye Bye [preauth]
+Oct 04 21:19:54 bastion sshd[4186]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:19:54 bastion sshd[4186]: Failed password for git from 192.0.2.15 port 50719 ssh2
+Oct 04 21:19:54 bastion sshd[4186]: Received disconnect from 192.0.2.15 port 50719:11: Bye Bye [preauth]
+Oct 04 21:19:58 bastion sshd[6283]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:19:58 bastion sshd[6283]: Failed password for git from 192.0.2.15 port 64750 ssh2
+Oct 04 21:19:58 bastion sshd[6283]: Received disconnect from 192.0.2.15 port 64750:11: Bye Bye [preauth]
+Oct 04 21:20:02 bastion sshd[3359]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:20:02 bastion sshd[3359]: Failed password for jenkins from 192.0.2.15 port 42420 ssh2
+Oct 04 21:20:02 bastion sshd[3359]: Received disconnect from 192.0.2.15 port 42420:11: Bye Bye [preauth]
+Oct 04 21:20:05 bastion sshd[5418]: Invalid user nagios from 192.0.2.15 port 44823
+Oct 04 21:20:05 bastion sshd[5418]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:20:05 bastion sshd[5418]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:20:05 bastion sshd[5418]: Failed password for invalid user nagios from 192.0.2.15 port 44823 ssh2
+Oct 04 21:20:05 bastion sshd[5418]: Received disconnect from 192.0.2.15 port 44823:11: Bye Bye [preauth]
+Oct 04 21:20:09 bastion sshd[6556]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:20:09 bastion sshd[6556]: Failed password for root from 203.0.113.88 port 49485 ssh2
+Oct 04 21:20:09 bastion sshd[6556]: Received disconnect from 203.0.113.88 port 49485:11: Bye Bye [preauth]
+Oct 04 21:20:10 bastion sshd[8406]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:20:10 bastion sshd[8406]: Failed password for admin from 203.0.113.88 port 60397 ssh2
+Oct 04 21:20:10 bastion sshd[8406]: Received disconnect from 203.0.113.88 port 60397:11: Bye Bye [preauth]
+Oct 04 21:20:12 bastion sshd[3389]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:20:12 bastion sshd[3389]: Failed password for guest from 203.0.113.88 port 36228 ssh2
+Oct 04 21:20:12 bastion sshd[3389]: Received disconnect from 203.0.113.88 port 36228:11: Bye Bye [preauth]
+Oct 04 21:20:16 bastion sshd[4791]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:20:16 bastion sshd[4791]: Failed password for guest from 203.0.113.88 port 50406 ssh2
+Oct 04 21:20:16 bastion sshd[4791]: Received disconnect from 203.0.113.88 port 50406:11: Bye Bye [preauth]
+Oct 04 21:20:19 bastion sshd[3182]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:20:19 bastion sshd[3182]: Failed password for ubuntu from 203.0.113.88 port 46779 ssh2
+Oct 04 21:20:19 bastion sshd[3182]: Received disconnect from 203.0.113.88 port 46779:11: Bye Bye [preauth]
+Oct 04 21:20:22 bastion sshd[5402]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:20:22 bastion sshd[5402]: Failed password for support from 192.0.2.15 port 57645 ssh2
+Oct 04 21:20:22 bastion sshd[5402]: Received disconnect from 192.0.2.15 port 57645:11: Bye Bye [preauth]
+Oct 04 21:20:25 bastion sshd[8696]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:20:25 bastion sshd[8696]: Failed password for ansible from 192.0.2.15 port 42477 ssh2
+Oct 04 21:20:25 bastion sshd[8696]: Received disconnect from 192.0.2.15 port 42477:11: Bye Bye [preauth]
+Oct 04 21:20:27 bastion sshd[3161]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:20:27 bastion sshd[3161]: Failed password for ansible from 192.0.2.15 port 49199 ssh2
+Oct 04 21:20:27 bastion sshd[3161]: Received disconnect from 192.0.2.15 port 49199:11: Bye Bye [preauth]
+Oct 04 21:20:31 bastion sshd[4263]: Invalid user nagios from 192.0.2.15 port 31049
+Oct 04 21:20:31 bastion sshd[4263]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:20:31 bastion sshd[4263]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:20:31 bastion sshd[4263]: Failed password for invalid user nagios from 192.0.2.15 port 31049 ssh2
+Oct 04 21:20:31 bastion sshd[4263]: Received disconnect from 192.0.2.15 port 31049:11: Bye Bye [preauth]
+Oct 04 21:20:34 bastion sshd[3143]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=postgres
+Oct 04 21:20:34 bastion sshd[3143]: Failed password for postgres from 203.0.113.88 port 44199 ssh2
+Oct 04 21:20:34 bastion sshd[3143]: Received disconnect from 203.0.113.88 port 44199:11: Bye Bye [preauth]
+Oct 04 21:20:36 bastion sshd[4602]: Invalid user minecraft from 192.0.2.15 port 52575
+Oct 04 21:20:36 bastion sshd[4602]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:20:36 bastion sshd[4602]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:20:36 bastion sshd[4602]: Failed password for invalid user minecraft from 192.0.2.15 port 52575 ssh2
+Oct 04 21:20:36 bastion sshd[4602]: Received disconnect from 192.0.2.15 port 52575:11: Bye Bye [preauth]
+Oct 04 21:20:39 bastion sshd[8055]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:20:39 bastion sshd[8055]: Failed password for ansible from 192.0.2.15 port 54626 ssh2
+Oct 04 21:20:39 bastion sshd[8055]: Received disconnect from 192.0.2.15 port 54626:11: Bye Bye [preauth]
+Oct 04 21:20:41 bastion sshd[7414]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:20:41 bastion sshd[7414]: Failed password for test from 203.0.113.88 port 55899 ssh2
+Oct 04 21:20:41 bastion sshd[7414]: Received disconnect from 203.0.113.88 port 55899:11: Bye Bye [preauth]
+Oct 04 21:20:44 bastion sshd[5647]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:20:44 bastion sshd[5647]: Failed password for ansible from 192.0.2.15 port 60494 ssh2
+Oct 04 21:20:44 bastion sshd[5647]: Received disconnect from 192.0.2.15 port 60494:11: Bye Bye [preauth]
+Oct 04 21:20:48 bastion sshd[4652]: Invalid user minecraft from 192.0.2.15 port 34234
+Oct 04 21:20:48 bastion sshd[4652]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:20:48 bastion sshd[4652]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:20:48 bastion sshd[4652]: Failed password for invalid user minecraft from 192.0.2.15 port 34234 ssh2
+Oct 04 21:20:48 bastion sshd[4652]: Received disconnect from 192.0.2.15 port 34234:11: Bye Bye [preauth]
+Oct 04 21:20:51 bastion sshd[5285]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:20:51 bastion sshd[5285]: Failed password for admin from 203.0.113.88 port 61679 ssh2
+Oct 04 21:20:51 bastion sshd[5285]: Received disconnect from 203.0.113.88 port 61679:11: Bye Bye [preauth]
+Oct 04 21:20:54 bastion sshd[6057]: Invalid user nagios from 192.0.2.15 port 57924
+Oct 04 21:20:54 bastion sshd[6057]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:20:54 bastion sshd[6057]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:20:54 bastion sshd[6057]: Failed password for invalid user nagios from 192.0.2.15 port 57924 ssh2
+Oct 04 21:20:54 bastion sshd[6057]: Received disconnect from 192.0.2.15 port 57924:11: Bye Bye [preauth]
+Oct 04 21:20:55 bastion sshd[6522]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=postgres
+Oct 04 21:20:55 bastion sshd[6522]: Failed password for postgres from 203.0.113.88 port 37333 ssh2
+Oct 04 21:20:55 bastion sshd[6522]: Received disconnect from 203.0.113.88 port 37333:11: Bye Bye [preauth]
+Oct 04 21:20:56 bastion sshd[3681]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:20:56 bastion sshd[3681]: Failed password for ansible from 192.0.2.15 port 49292 ssh2
+Oct 04 21:20:56 bastion sshd[3681]: Received disconnect from 192.0.2.15 port 49292:11: Bye Bye [preauth]
+Oct 04 21:20:58 bastion sshd[4306]: Invalid user nagios from 192.0.2.15 port 44210
+Oct 04 21:20:58 bastion sshd[4306]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:20:58 bastion sshd[4306]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:20:58 bastion sshd[4306]: Failed password for invalid user nagios from 192.0.2.15 port 44210 ssh2
+Oct 04 21:20:58 bastion sshd[4306]: Received disconnect from 192.0.2.15 port 44210:11: Bye Bye [preauth]
+Oct 04 21:21:00 bastion sshd[5812]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:21:00 bastion sshd[5812]: Failed password for admin from 203.0.113.88 port 34579 ssh2
+Oct 04 21:21:00 bastion sshd[5812]: Received disconnect from 203.0.113.88 port 34579:11: Bye Bye [preauth]
+Oct 04 21:21:02 bastion sshd[4324]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:21:02 bastion sshd[4324]: Failed password for ansible from 192.0.2.15 port 53458 ssh2
+Oct 04 21:21:02 bastion sshd[4324]: Received disconnect from 192.0.2.15 port 53458:11: Bye Bye [preauth]
+Oct 04 21:21:05 bastion sshd[7117]: Invalid user nagios from 192.0.2.15 port 42578
+Oct 04 21:21:05 bastion sshd[7117]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:21:05 bastion sshd[7117]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:21:05 bastion sshd[7117]: Failed password for invalid user nagios from 192.0.2.15 port 42578 ssh2
+Oct 04 21:21:05 bastion sshd[7117]: Received disconnect from 192.0.2.15 port 42578:11: Bye Bye [preauth]
+Oct 04 21:21:06 bastion sshd[7950]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:21:06 bastion sshd[7950]: Failed password for ubuntu from 203.0.113.88 port 59020 ssh2
+Oct 04 21:21:06 bastion sshd[7950]: Received disconnect from 203.0.113.88 port 59020:11: Bye Bye [preauth]
+Oct 04 21:21:07 bastion sshd[4803]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:21:07 bastion sshd[4803]: Failed password for root from 203.0.113.88 port 57672 ssh2
+Oct 04 21:21:07 bastion sshd[4803]: Received disconnect from 203.0.113.88 port 57672:11: Bye Bye [preauth]
+Oct 04 21:21:10 bastion sshd[5907]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:21:10 bastion sshd[5907]: Failed password for jenkins from 192.0.2.15 port 39281 ssh2
+Oct 04 21:21:10 bastion sshd[5907]: Received disconnect from 192.0.2.15 port 39281:11: Bye Bye [preauth]
+Oct 04 21:21:13 bastion sshd[4317]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:21:13 bastion sshd[4317]: Failed password for admin from 203.0.113.88 port 32320 ssh2
+Oct 04 21:21:13 bastion sshd[4317]: Received disconnect from 203.0.113.88 port 32320:11: Bye Bye [preauth]
+Oct 04 21:21:16 bastion sshd[7190]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:21:16 bastion sshd[7190]: Failed password for ubuntu from 203.0.113.88 port 53366 ssh2
+Oct 04 21:21:16 bastion sshd[7190]: Received disconnect from 203.0.113.88 port 53366:11: Bye Bye [preauth]
+Oct 04 21:21:20 bastion sshd[4043]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:21:20 bastion sshd[4043]: Failed password for guest from 203.0.113.88 port 51363 ssh2
+Oct 04 21:21:20 bastion sshd[4043]: Received disconnect from 203.0.113.88 port 51363:11: Bye Bye [preauth]
+Oct 04 21:21:23 bastion sshd[4872]: Invalid user minecraft from 192.0.2.15 port 46432
+Oct 04 21:21:23 bastion sshd[4872]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:21:23 bastion sshd[4872]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:21:23 bastion sshd[4872]: Failed password for invalid user minecraft from 192.0.2.15 port 46432 ssh2
+Oct 04 21:21:23 bastion sshd[4872]: Received disconnect from 192.0.2.15 port 46432:11: Bye Bye [preauth]
+Oct 04 21:21:27 bastion sshd[4562]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:21:27 bastion sshd[4562]: Failed password for admin from 203.0.113.88 port 34547 ssh2
+Oct 04 21:21:27 bastion sshd[4562]: Received disconnect from 203.0.113.88 port 34547:11: Bye Bye [preauth]
+Oct 04 21:21:28 bastion sshd[4741]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:21:28 bastion sshd[4741]: Failed password for root from 203.0.113.88 port 30002 ssh2
+Oct 04 21:21:28 bastion sshd[4741]: Received disconnect from 203.0.113.88 port 30002:11: Bye Bye [preauth]
+Oct 04 21:21:30 bastion sshd[5779]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=postgres
+Oct 04 21:21:30 bastion sshd[5779]: Failed password for postgres from 203.0.113.88 port 31358 ssh2
+Oct 04 21:21:30 bastion sshd[5779]: Received disconnect from 203.0.113.88 port 31358:11: Bye Bye [preauth]
+Oct 04 21:21:31 bastion sshd[8621]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:21:31 bastion sshd[8621]: Failed password for test from 203.0.113.88 port 35462 ssh2
+Oct 04 21:21:31 bastion sshd[8621]: Received disconnect from 203.0.113.88 port 35462:11: Bye Bye [preauth]
+Oct 04 21:21:33 bastion sshd[7151]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:21:33 bastion sshd[7151]: Failed password for jenkins from 192.0.2.15 port 62800 ssh2
+Oct 04 21:21:33 bastion sshd[7151]: Received disconnect from 192.0.2.15 port 62800:11: Bye Bye [preauth]
+Oct 04 21:21:37 bastion sshd[8422]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:21:37 bastion sshd[8422]: Failed password for root from 203.0.113.88 port 40776 ssh2
+Oct 04 21:21:37 bastion sshd[8422]: Received disconnect from 203.0.113.88 port 40776:11: Bye Bye [preauth]
+Oct 04 21:21:41 bastion sshd[4572]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:21:41 bastion sshd[4572]: Failed password for ansible from 192.0.2.15 port 31010 ssh2
+Oct 04 21:21:41 bastion sshd[4572]: Received disconnect from 192.0.2.15 port 31010:11: Bye Bye [preauth]
+Oct 04 21:21:43 bastion sshd[5228]: Invalid user minecraft from 192.0.2.15 port 56411
+Oct 04 21:21:43 bastion sshd[5228]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:21:43 bastion sshd[5228]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:21:43 bastion sshd[5228]: Failed password for invalid user minecraft from 192.0.2.15 port 56411 ssh2
+Oct 04 21:21:43 bastion sshd[5228]: Received disconnect from 192.0.2.15 port 56411:11: Bye Bye [preauth]
+Oct 04 21:21:46 bastion sshd[5213]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=postgres
+Oct 04 21:21:46 bastion sshd[5213]: Failed password for postgres from 203.0.113.88 port 49985 ssh2
+Oct 04 21:21:46 bastion sshd[5213]: Received disconnect from 203.0.113.88 port 49985:11: Bye Bye [preauth]
+Oct 04 21:21:50 bastion sshd[6642]: Invalid user ftpuser from 192.0.2.15 port 51818
+Oct 04 21:21:50 bastion sshd[6642]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:21:50 bastion sshd[6642]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:21:50 bastion sshd[6642]: Failed password for invalid user ftpuser from 192.0.2.15 port 51818 ssh2
+Oct 04 21:21:50 bastion sshd[6642]: Received disconnect from 192.0.2.15 port 51818:11: Bye Bye [preauth]
+Oct 04 21:21:52 bastion sshd[6366]: Invalid user ftpuser from 192.0.2.15 port 42205
+Oct 04 21:21:52 bastion sshd[6366]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:21:52 bastion sshd[6366]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:21:52 bastion sshd[6366]: Failed password for invalid user ftpuser from 192.0.2.15 port 42205 ssh2
+Oct 04 21:21:52 bastion sshd[6366]: Received disconnect from 192.0.2.15 port 42205:11: Bye Bye [preauth]
+Oct 04 21:21:54 bastion sshd[5258]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:21:54 bastion sshd[5258]: Failed password for test from 203.0.113.88 port 37479 ssh2
+Oct 04 21:21:54 bastion sshd[5258]: Received disconnect from 203.0.113.88 port 37479:11: Bye Bye [preauth]
+Oct 04 21:21:56 bastion sshd[8596]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:21:56 bastion sshd[8596]: Failed password for test from 203.0.113.88 port 40699 ssh2
+Oct 04 21:21:56 bastion sshd[8596]: Received disconnect from 203.0.113.88 port 40699:11: Bye Bye [preauth]
+Oct 04 21:21:59 bastion sshd[8048]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:21:59 bastion sshd[8048]: Failed password for ubuntu from 203.0.113.88 port 44991 ssh2
+Oct 04 21:21:59 bastion sshd[8048]: Received disconnect from 203.0.113.88 port 44991:11: Bye Bye [preauth]
+Oct 04 21:22:03 bastion sshd[8015]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:22:03 bastion sshd[8015]: Failed password for git from 192.0.2.15 port 42267 ssh2
+Oct 04 21:22:03 bastion sshd[8015]: Received disconnect from 192.0.2.15 port 42267:11: Bye Bye [preauth]
+Oct 04 21:22:06 bastion sshd[6893]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:22:06 bastion sshd[6893]: Failed password for ansible from 192.0.2.15 port 55973 ssh2
+Oct 04 21:22:06 bastion sshd[6893]: Received disconnect from 192.0.2.15 port 55973:11: Bye Bye [preauth]
+Oct 04 21:22:08 bastion sshd[8696]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:22:08 bastion sshd[8696]: Failed password for user from 203.0.113.88 port 63332 ssh2
+Oct 04 21:22:08 bastion sshd[8696]: Received disconnect from 203.0.113.88 port 63332:11: Bye Bye [preauth]
+Oct 04 21:22:12 bastion sshd[6063]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:22:12 bastion sshd[6063]: Failed password for support from 192.0.2.15 port 52784 ssh2
+Oct 04 21:22:12 bastion sshd[6063]: Received disconnect from 192.0.2.15 port 52784:11: Bye Bye [preauth]
+Oct 04 21:22:14 bastion sshd[7808]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:22:14 bastion sshd[7808]: Failed password for root from 203.0.113.88 port 54780 ssh2
+Oct 04 21:22:14 bastion sshd[7808]: Received disconnect from 203.0.113.88 port 54780:11: Bye Bye [preauth]
+Oct 04 21:22:15 bastion sshd[4099]: Invalid user oracle from 203.0.113.88 port 37328
+Oct 04 21:22:15 bastion sshd[4099]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:22:15 bastion sshd[4099]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:22:15 bastion sshd[4099]: Failed password for invalid user oracle from 203.0.113.88 port 37328 ssh2
+Oct 04 21:22:15 bastion sshd[4099]: Received disconnect from 203.0.113.88 port 37328:11: Bye Bye [preauth]
+Oct 04 21:22:17 bastion sshd[8878]: Invalid user oracle from 203.0.113.88 port 43685
+Oct 04 21:22:17 bastion sshd[8878]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:22:17 bastion sshd[8878]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:22:17 bastion sshd[8878]: Failed password for invalid user oracle from 203.0.113.88 port 43685 ssh2
+Oct 04 21:22:17 bastion sshd[8878]: Received disconnect from 203.0.113.88 port 43685:11: Bye Bye [preauth]
+Oct 04 21:22:21 bastion sshd[4090]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:22:21 bastion sshd[4090]: Failed password for ansible from 192.0.2.15 port 53042 ssh2
+Oct 04 21:22:21 bastion sshd[4090]: Received disconnect from 192.0.2.15 port 53042:11: Bye Bye [preauth]
+Oct 04 21:22:25 bastion sshd[4689]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:22:25 bastion sshd[4689]: Failed password for jenkins from 192.0.2.15 port 46302 ssh2
+Oct 04 21:22:25 bastion sshd[4689]: Received disconnect from 192.0.2.15 port 46302:11: Bye Bye [preauth]
+Oct 04 21:22:28 bastion sshd[4207]: Invalid user minecraft from 192.0.2.15 port 45200
+Oct 04 21:22:28 bastion sshd[4207]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:22:28 bastion sshd[4207]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:22:28 bastion sshd[4207]: Failed password for invalid user minecraft from 192.0.2.15 port 45200 ssh2
+Oct 04 21:22:28 bastion sshd[4207]: Received disconnect from 192.0.2.15 port 45200:11: Bye Bye [preauth]
+Oct 04 21:22:31 bastion sshd[3502]: Invalid user ftpuser from 192.0.2.15 port 50123
+Oct 04 21:22:31 bastion sshd[3502]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:22:31 bastion sshd[3502]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:22:31 bastion sshd[3502]: Failed password for invalid user ftpuser from 192.0.2.15 port 50123 ssh2
+Oct 04 21:22:31 bastion sshd[3502]: Received disconnect from 192.0.2.15 port 50123:11: Bye Bye [preauth]
+Oct 04 21:22:32 bastion sshd[8107]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:22:32 bastion sshd[8107]: Failed password for jenkins from 192.0.2.15 port 52834 ssh2
+Oct 04 21:22:32 bastion sshd[8107]: Received disconnect from 192.0.2.15 port 52834:11: Bye Bye [preauth]
+Oct 04 21:22:36 bastion sshd[3162]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:22:36 bastion sshd[3162]: Failed password for git from 192.0.2.15 port 56042 ssh2
+Oct 04 21:22:36 bastion sshd[3162]: Received disconnect from 192.0.2.15 port 56042:11: Bye Bye [preauth]
+Oct 04 21:22:40 bastion sshd[8163]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:22:40 bastion sshd[8163]: Failed password for git from 192.0.2.15 port 39652 ssh2
+Oct 04 21:22:40 bastion sshd[8163]: Received disconnect from 192.0.2.15 port 39652:11: Bye Bye [preauth]
+Oct 04 21:22:42 bastion sshd[8728]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:22:42 bastion sshd[8728]: Failed password for ansible from 192.0.2.15 port 53180 ssh2
+Oct 04 21:22:42 bastion sshd[8728]: Received disconnect from 192.0.2.15 port 53180:11: Bye Bye [preauth]
+Oct 04 21:22:46 bastion sshd[8106]: Invalid user oracle from 203.0.113.88 port 37103
+Oct 04 21:22:46 bastion sshd[8106]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:22:46 bastion sshd[8106]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:22:46 bastion sshd[8106]: Failed password for invalid user oracle from 203.0.113.88 port 37103 ssh2
+Oct 04 21:22:46 bastion sshd[8106]: Received disconnect from 203.0.113.88 port 37103:11: Bye Bye [preauth]
+Oct 04 21:22:49 bastion sshd[5596]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:22:49 bastion sshd[5596]: Failed password for git from 192.0.2.15 port 56431 ssh2
+Oct 04 21:22:49 bastion sshd[5596]: Received disconnect from 192.0.2.15 port 56431:11: Bye Bye [preauth]
+Oct 04 21:22:50 bastion sshd[7718]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:22:50 bastion sshd[7718]: Failed password for guest from 203.0.113.88 port 61160 ssh2
+Oct 04 21:22:50 bastion sshd[7718]: Received disconnect from 203.0.113.88 port 61160:11: Bye Bye [preauth]
+Oct 04 21:22:54 bastion sshd[3325]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:22:54 bastion sshd[3325]: Failed password for jenkins from 192.0.2.15 port 43615 ssh2
+Oct 04 21:22:54 bastion sshd[3325]: Received disconnect from 192.0.2.15 port 43615:11: Bye Bye [preauth]
+Oct 04 21:22:58 bastion sshd[3630]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:22:58 bastion sshd[3630]: Failed password for admin from 203.0.113.88 port 41017 ssh2
+Oct 04 21:22:58 bastion sshd[3630]: Received disconnect from 203.0.113.88 port 41017:11: Bye Bye [preauth]
+Oct 04 21:22:59 bastion sshd[8394]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:22:59 bastion sshd[8394]: Failed password for test from 203.0.113.88 port 47649 ssh2
+Oct 04 21:22:59 bastion sshd[8394]: Received disconnect from 203.0.113.88 port 47649:11: Bye Bye [preauth]
+Oct 04 21:23:03 bastion sshd[6040]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:23:03 bastion sshd[6040]: Failed password for ansible from 192.0.2.15 port 47154 ssh2
+Oct 04 21:23:03 bastion sshd[6040]: Received disconnect from 192.0.2.15 port 47154:11: Bye Bye [preauth]
+Oct 04 21:23:05 bastion sshd[8335]: Invalid user ftpuser from 192.0.2.15 port 57839
+Oct 04 21:23:05 bastion sshd[8335]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:23:05 bastion sshd[8335]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:23:05 bastion sshd[8335]: Failed password for invalid user ftpuser from 192.0.2.15 port 57839 ssh2
+Oct 04 21:23:05 bastion sshd[8335]: Received disconnect from 192.0.2.15 port 57839:11: Bye Bye [preauth]
+Oct 04 21:23:06 bastion sshd[7906]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:23:06 bastion sshd[7906]: Failed password for git from 192.0.2.15 port 43880 ssh2
+Oct 04 21:23:06 bastion sshd[7906]: Received disconnect from 192.0.2.15 port 43880:11: Bye Bye [preauth]
+Oct 04 21:23:10 bastion sshd[3332]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:23:10 bastion sshd[3332]: Failed password for admin from 203.0.113.88 port 35786 ssh2
+Oct 04 21:23:10 bastion sshd[3332]: Received disconnect from 203.0.113.88 port 35786:11: Bye Bye [preauth]
+Oct 04 21:23:12 bastion sshd[4457]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:23:12 bastion sshd[4457]: Failed password for git from 192.0.2.15 port 57427 ssh2
+Oct 04 21:23:12 bastion sshd[4457]: Received disconnect from 192.0.2.15 port 57427:11: Bye Bye [preauth]
+Oct 04 21:23:14 bastion sshd[3961]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:23:14 bastion sshd[3961]: Failed password for test from 203.0.113.88 port 54052 ssh2
+Oct 04 21:23:14 bastion sshd[3961]: Received disconnect from 203.0.113.88 port 54052:11: Bye Bye [preauth]
+Oct 04 21:23:15 bastion sshd[5011]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:23:15 bastion sshd[5011]: Failed password for test from 203.0.113.88 port 59181 ssh2
+Oct 04 21:23:15 bastion sshd[5011]: Received disconnect from 203.0.113.88 port 59181:11: Bye Bye [preauth]
+Oct 04 21:23:16 bastion sshd[3498]: Invalid user oracle from 203.0.113.88 port 54778
+Oct 04 21:23:16 bastion sshd[3498]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:23:16 bastion sshd[3498]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:23:16 bastion sshd[3498]: Failed password for invalid user oracle from 203.0.113.88 port 54778 ssh2
+Oct 04 21:23:16 bastion sshd[3498]: Received disconnect from 203.0.113.88 port 54778:11: Bye Bye [preauth]
+Oct 04 21:23:20 bastion sshd[6182]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:23:20 bastion sshd[6182]: Failed password for jenkins from 192.0.2.15 port 55532 ssh2
+Oct 04 21:23:20 bastion sshd[6182]: Received disconnect from 192.0.2.15 port 55532:11: Bye Bye [preauth]
+Oct 04 21:23:22 bastion sshd[3948]: Invalid user nagios from 192.0.2.15 port 61381
+Oct 04 21:23:22 bastion sshd[3948]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:23:22 bastion sshd[3948]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:23:22 bastion sshd[3948]: Failed password for invalid user nagios from 192.0.2.15 port 61381 ssh2
+Oct 04 21:23:22 bastion sshd[3948]: Received disconnect from 192.0.2.15 port 61381:11: Bye Bye [preauth]
+Oct 04 21:23:25 bastion sshd[4842]: Invalid user nagios from 192.0.2.15 port 48525
+Oct 04 21:23:25 bastion sshd[4842]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:23:25 bastion sshd[4842]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:23:25 bastion sshd[4842]: Failed password for invalid user nagios from 192.0.2.15 port 48525 ssh2
+Oct 04 21:23:25 bastion sshd[4842]: Received disconnect from 192.0.2.15 port 48525:11: Bye Bye [preauth]
+Oct 04 21:23:27 bastion sshd[4729]: Invalid user oracle from 203.0.113.88 port 32513
+Oct 04 21:23:27 bastion sshd[4729]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:23:27 bastion sshd[4729]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:23:27 bastion sshd[4729]: Failed password for invalid user oracle from 203.0.113.88 port 32513 ssh2
+Oct 04 21:23:27 bastion sshd[4729]: Received disconnect from 203.0.113.88 port 32513:11: Bye Bye [preauth]
+Oct 04 21:23:28 bastion sshd[7954]: Invalid user minecraft from 192.0.2.15 port 45901
+Oct 04 21:23:28 bastion sshd[7954]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:23:28 bastion sshd[7954]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:23:28 bastion sshd[7954]: Failed password for invalid user minecraft from 192.0.2.15 port 45901 ssh2
+Oct 04 21:23:28 bastion sshd[7954]: Received disconnect from 192.0.2.15 port 45901:11: Bye Bye [preauth]
+Oct 04 21:23:29 bastion sshd[8638]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:23:29 bastion sshd[8638]: Failed password for jenkins from 192.0.2.15 port 37648 ssh2
+Oct 04 21:23:29 bastion sshd[8638]: Received disconnect from 192.0.2.15 port 37648:11: Bye Bye [preauth]
+Oct 04 21:23:30 bastion sshd[6962]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:23:30 bastion sshd[6962]: Failed password for ansible from 192.0.2.15 port 45196 ssh2
+Oct 04 21:23:30 bastion sshd[6962]: Received disconnect from 192.0.2.15 port 45196:11: Bye Bye [preauth]
+Oct 04 21:23:32 bastion sshd[5743]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:23:32 bastion sshd[5743]: Failed password for root from 203.0.113.88 port 48944 ssh2
+Oct 04 21:23:32 bastion sshd[5743]: Received disconnect from 203.0.113.88 port 48944:11: Bye Bye [preauth]
+Oct 04 21:23:36 bastion sshd[5587]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:23:36 bastion sshd[5587]: Failed password for admin from 203.0.113.88 port 37969 ssh2
+Oct 04 21:23:36 bastion sshd[5587]: Received disconnect from 203.0.113.88 port 37969:11: Bye Bye [preauth]
+Oct 04 21:23:40 bastion sshd[7486]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:23:40 bastion sshd[7486]: Failed password for guest from 203.0.113.88 port 52280 ssh2
+Oct 04 21:23:40 bastion sshd[7486]: Received disconnect from 203.0.113.88 port 52280:11: Bye Bye [preauth]
+Oct 04 21:23:41 bastion sshd[5014]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:23:41 bastion sshd[5014]: Failed password for ansible from 192.0.2.15 port 53134 ssh2
+Oct 04 21:23:41 bastion sshd[5014]: Received disconnect from 192.0.2.15 port 53134:11: Bye Bye [preauth]
+Oct 04 21:23:45 bastion sshd[7492]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=postgres
+Oct 04 21:23:45 bastion sshd[7492]: Failed password for postgres from 203.0.113.88 port 48253 ssh2
+Oct 04 21:23:45 bastion sshd[7492]: Received disconnect from 203.0.113.88 port 48253:11: Bye Bye [preauth]
+Oct 04 21:23:47 bastion sshd[4692]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=postgres
+Oct 04 21:23:47 bastion sshd[4692]: Failed password for postgres from 203.0.113.88 port 41228 ssh2
+Oct 04 21:23:47 bastion sshd[4692]: Received disconnect from 203.0.113.88 port 41228:11: Bye Bye [preauth]
+Oct 04 21:23:49 bastion sshd[4269]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:23:49 bastion sshd[4269]: Failed password for user from 203.0.113.88 port 61623 ssh2
+Oct 04 21:23:49 bastion sshd[4269]: Received disconnect from 203.0.113.88 port 61623:11: Bye Bye [preauth]
+Oct 04 21:23:51 bastion sshd[8786]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:23:51 bastion sshd[8786]: Failed password for support from 192.0.2.15 port 31115 ssh2
+Oct 04 21:23:51 bastion sshd[8786]: Received disconnect from 192.0.2.15 port 31115:11: Bye Bye [preauth]
+Oct 04 21:23:54 bastion sshd[5995]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:23:54 bastion sshd[5995]: Failed password for user from 203.0.113.88 port 53319 ssh2
+Oct 04 21:23:54 bastion sshd[5995]: Received disconnect from 203.0.113.88 port 53319:11: Bye Bye [preauth]
+Oct 04 21:23:56 bastion sshd[3563]: Invalid user oracle from 203.0.113.88 port 35910
+Oct 04 21:23:56 bastion sshd[3563]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:23:56 bastion sshd[3563]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:23:56 bastion sshd[3563]: Failed password for invalid user oracle from 203.0.113.88 port 35910 ssh2
+Oct 04 21:23:56 bastion sshd[3563]: Received disconnect from 203.0.113.88 port 35910:11: Bye Bye [preauth]
+Oct 04 21:24:00 bastion sshd[2004]: Accepted publickey for sysadmin from 10.0.10.15 port 54323 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 21:24:00 bastion sshd[2004]: pam_unix(sshd:session): session opened for user sysadmin by (uid=0)
+Oct 04 21:24:00 bastion sshd[5914]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:24:00 bastion sshd[5914]: Failed password for jenkins from 192.0.2.15 port 35278 ssh2
+Oct 04 21:24:00 bastion sshd[5914]: Received disconnect from 192.0.2.15 port 35278:11: Bye Bye [preauth]
+Oct 04 21:24:04 bastion sshd[7672]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:24:04 bastion sshd[7672]: Failed password for root from 203.0.113.88 port 45508 ssh2
+Oct 04 21:24:04 bastion sshd[7672]: Received disconnect from 203.0.113.88 port 45508:11: Bye Bye [preauth]
+Oct 04 21:24:07 bastion sshd[6363]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:24:07 bastion sshd[6363]: Failed password for admin from 203.0.113.88 port 42925 ssh2
+Oct 04 21:24:07 bastion sshd[6363]: Received disconnect from 203.0.113.88 port 42925:11: Bye Bye [preauth]
+Oct 04 21:24:08 bastion sshd[5832]: Invalid user minecraft from 192.0.2.15 port 48907
+Oct 04 21:24:08 bastion sshd[5832]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:24:08 bastion sshd[5832]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:24:08 bastion sshd[5832]: Failed password for invalid user minecraft from 192.0.2.15 port 48907 ssh2
+Oct 04 21:24:08 bastion sshd[5832]: Received disconnect from 192.0.2.15 port 48907:11: Bye Bye [preauth]
+Oct 04 21:24:12 bastion sshd[4282]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:24:12 bastion sshd[4282]: Failed password for ubuntu from 203.0.113.88 port 39057 ssh2
+Oct 04 21:24:12 bastion sshd[4282]: Received disconnect from 203.0.113.88 port 39057:11: Bye Bye [preauth]
+Oct 04 21:24:13 bastion sshd[3636]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:24:13 bastion sshd[3636]: Failed password for admin from 203.0.113.88 port 50099 ssh2
+Oct 04 21:24:13 bastion sshd[3636]: Received disconnect from 203.0.113.88 port 50099:11: Bye Bye [preauth]
+Oct 04 21:24:16 bastion sshd[7119]: Invalid user nagios from 192.0.2.15 port 60819
+Oct 04 21:24:16 bastion sshd[7119]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:24:16 bastion sshd[7119]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:24:16 bastion sshd[7119]: Failed password for invalid user nagios from 192.0.2.15 port 60819 ssh2
+Oct 04 21:24:16 bastion sshd[7119]: Received disconnect from 192.0.2.15 port 60819:11: Bye Bye [preauth]
+Oct 04 21:24:18 bastion sshd[4039]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:24:18 bastion sshd[4039]: Failed password for admin from 203.0.113.88 port 35588 ssh2
+Oct 04 21:24:18 bastion sshd[4039]: Received disconnect from 203.0.113.88 port 35588:11: Bye Bye [preauth]
+Oct 04 21:24:20 bastion sshd[7651]: Invalid user oracle from 203.0.113.88 port 45746
+Oct 04 21:24:20 bastion sshd[7651]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:24:20 bastion sshd[7651]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:24:20 bastion sshd[7651]: Failed password for invalid user oracle from 203.0.113.88 port 45746 ssh2
+Oct 04 21:24:20 bastion sshd[7651]: Received disconnect from 203.0.113.88 port 45746:11: Bye Bye [preauth]
+Oct 04 21:24:23 bastion sshd[5422]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:24:23 bastion sshd[5422]: Failed password for ubuntu from 203.0.113.88 port 42216 ssh2
+Oct 04 21:24:23 bastion sshd[5422]: Received disconnect from 203.0.113.88 port 42216:11: Bye Bye [preauth]
+Oct 04 21:24:24 bastion sshd[3371]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:24:24 bastion sshd[3371]: Failed password for jenkins from 192.0.2.15 port 55794 ssh2
+Oct 04 21:24:24 bastion sshd[3371]: Received disconnect from 192.0.2.15 port 55794:11: Bye Bye [preauth]
+Oct 04 21:24:27 bastion sshd[5785]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:24:27 bastion sshd[5785]: Failed password for git from 192.0.2.15 port 59924 ssh2
+Oct 04 21:24:27 bastion sshd[5785]: Received disconnect from 192.0.2.15 port 59924:11: Bye Bye [preauth]
+Oct 04 21:24:31 bastion sshd[5568]: Invalid user minecraft from 192.0.2.15 port 62039
+Oct 04 21:24:31 bastion sshd[5568]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:24:31 bastion sshd[5568]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:24:31 bastion sshd[5568]: Failed password for invalid user minecraft from 192.0.2.15 port 62039 ssh2
+Oct 04 21:24:31 bastion sshd[5568]: Received disconnect from 192.0.2.15 port 62039:11: Bye Bye [preauth]
+Oct 04 21:24:32 bastion sshd[5282]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:24:32 bastion sshd[5282]: Failed password for jenkins from 192.0.2.15 port 32756 ssh2
+Oct 04 21:24:32 bastion sshd[5282]: Received disconnect from 192.0.2.15 port 32756:11: Bye Bye [preauth]
+Oct 04 21:24:36 bastion sshd[3925]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:24:36 bastion sshd[3925]: Failed password for guest from 203.0.113.88 port 40367 ssh2
+Oct 04 21:24:36 bastion sshd[3925]: Received disconnect from 203.0.113.88 port 40367:11: Bye Bye [preauth]
+Oct 04 21:24:37 bastion sshd[6665]: Invalid user ftpuser from 192.0.2.15 port 59380
+Oct 04 21:24:37 bastion sshd[6665]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:24:37 bastion sshd[6665]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:24:37 bastion sshd[6665]: Failed password for invalid user ftpuser from 192.0.2.15 port 59380 ssh2
+Oct 04 21:24:37 bastion sshd[6665]: Received disconnect from 192.0.2.15 port 59380:11: Bye Bye [preauth]
+Oct 04 21:24:41 bastion sshd[5443]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:24:41 bastion sshd[5443]: Failed password for git from 192.0.2.15 port 31970 ssh2
+Oct 04 21:24:41 bastion sshd[5443]: Received disconnect from 192.0.2.15 port 31970:11: Bye Bye [preauth]
+Oct 04 21:24:42 bastion sshd[4733]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:24:42 bastion sshd[4733]: Failed password for ansible from 192.0.2.15 port 57830 ssh2
+Oct 04 21:24:42 bastion sshd[4733]: Received disconnect from 192.0.2.15 port 57830:11: Bye Bye [preauth]
+Oct 04 21:24:44 bastion sshd[8697]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:24:44 bastion sshd[8697]: Failed password for git from 192.0.2.15 port 51088 ssh2
+Oct 04 21:24:44 bastion sshd[8697]: Received disconnect from 192.0.2.15 port 51088:11: Bye Bye [preauth]
+Oct 04 21:24:48 bastion sshd[3199]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:24:48 bastion sshd[3199]: Failed password for user from 203.0.113.88 port 44227 ssh2
+Oct 04 21:24:48 bastion sshd[3199]: Received disconnect from 203.0.113.88 port 44227:11: Bye Bye [preauth]
+Oct 04 21:24:49 bastion sshd[7240]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=postgres
+Oct 04 21:24:49 bastion sshd[7240]: Failed password for postgres from 203.0.113.88 port 60395 ssh2
+Oct 04 21:24:49 bastion sshd[7240]: Received disconnect from 203.0.113.88 port 60395:11: Bye Bye [preauth]
+Oct 04 21:24:53 bastion sshd[3648]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:24:53 bastion sshd[3648]: Failed password for user from 203.0.113.88 port 36400 ssh2
+Oct 04 21:24:53 bastion sshd[3648]: Received disconnect from 203.0.113.88 port 36400:11: Bye Bye [preauth]
+Oct 04 21:24:55 bastion sshd[5994]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:24:55 bastion sshd[5994]: Failed password for support from 192.0.2.15 port 30708 ssh2
+Oct 04 21:24:55 bastion sshd[5994]: Received disconnect from 192.0.2.15 port 30708:11: Bye Bye [preauth]
+Oct 04 21:24:59 bastion sshd[6452]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:24:59 bastion sshd[6452]: Failed password for git from 192.0.2.15 port 48659 ssh2
+Oct 04 21:24:59 bastion sshd[6452]: Received disconnect from 192.0.2.15 port 48659:11: Bye Bye [preauth]
+Oct 04 21:25:01 bastion sshd[6061]: Invalid user nagios from 192.0.2.15 port 61239
+Oct 04 21:25:01 bastion sshd[6061]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:25:01 bastion sshd[6061]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:25:01 bastion sshd[6061]: Failed password for invalid user nagios from 192.0.2.15 port 61239 ssh2
+Oct 04 21:25:01 bastion sshd[6061]: Received disconnect from 192.0.2.15 port 61239:11: Bye Bye [preauth]
+Oct 04 21:25:03 bastion sshd[5346]: Invalid user nagios from 192.0.2.15 port 52401
+Oct 04 21:25:03 bastion sshd[5346]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:25:03 bastion sshd[5346]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:25:03 bastion sshd[5346]: Failed password for invalid user nagios from 192.0.2.15 port 52401 ssh2
+Oct 04 21:25:03 bastion sshd[5346]: Received disconnect from 192.0.2.15 port 52401:11: Bye Bye [preauth]
+Oct 04 21:25:07 bastion sshd[6820]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:25:07 bastion sshd[6820]: Failed password for user from 203.0.113.88 port 46792 ssh2
+Oct 04 21:25:07 bastion sshd[6820]: Received disconnect from 203.0.113.88 port 46792:11: Bye Bye [preauth]
+Oct 04 21:25:11 bastion sshd[8071]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:25:11 bastion sshd[8071]: Failed password for test from 203.0.113.88 port 46441 ssh2
+Oct 04 21:25:11 bastion sshd[8071]: Received disconnect from 203.0.113.88 port 46441:11: Bye Bye [preauth]
+Oct 04 21:25:12 bastion sshd[3975]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:25:12 bastion sshd[3975]: Failed password for admin from 203.0.113.88 port 53206 ssh2
+Oct 04 21:25:12 bastion sshd[3975]: Received disconnect from 203.0.113.88 port 53206:11: Bye Bye [preauth]
+Oct 04 21:25:14 bastion sshd[6965]: Invalid user nagios from 192.0.2.15 port 50296
+Oct 04 21:25:14 bastion sshd[6965]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:25:14 bastion sshd[6965]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:25:14 bastion sshd[6965]: Failed password for invalid user nagios from 192.0.2.15 port 50296 ssh2
+Oct 04 21:25:14 bastion sshd[6965]: Received disconnect from 192.0.2.15 port 50296:11: Bye Bye [preauth]
+Oct 04 21:25:17 bastion sshd[4607]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:25:17 bastion sshd[4607]: Failed password for git from 192.0.2.15 port 50239 ssh2
+Oct 04 21:25:17 bastion sshd[4607]: Received disconnect from 192.0.2.15 port 50239:11: Bye Bye [preauth]
+Oct 04 21:25:19 bastion sshd[6482]: Invalid user minecraft from 192.0.2.15 port 50601
+Oct 04 21:25:19 bastion sshd[6482]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:25:19 bastion sshd[6482]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:25:19 bastion sshd[6482]: Failed password for invalid user minecraft from 192.0.2.15 port 50601 ssh2
+Oct 04 21:25:19 bastion sshd[6482]: Received disconnect from 192.0.2.15 port 50601:11: Bye Bye [preauth]
+Oct 04 21:25:20 bastion sshd[6518]: Invalid user minecraft from 192.0.2.15 port 53232
+Oct 04 21:25:20 bastion sshd[6518]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:25:20 bastion sshd[6518]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:25:20 bastion sshd[6518]: Failed password for invalid user minecraft from 192.0.2.15 port 53232 ssh2
+Oct 04 21:25:20 bastion sshd[6518]: Received disconnect from 192.0.2.15 port 53232:11: Bye Bye [preauth]
+Oct 04 21:25:22 bastion sshd[4018]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:25:22 bastion sshd[4018]: Failed password for ubuntu from 203.0.113.88 port 33296 ssh2
+Oct 04 21:25:22 bastion sshd[4018]: Received disconnect from 203.0.113.88 port 33296:11: Bye Bye [preauth]
+Oct 04 21:25:24 bastion sshd[6850]: Invalid user oracle from 203.0.113.88 port 56858
+Oct 04 21:25:24 bastion sshd[6850]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:25:24 bastion sshd[6850]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:25:24 bastion sshd[6850]: Failed password for invalid user oracle from 203.0.113.88 port 56858 ssh2
+Oct 04 21:25:24 bastion sshd[6850]: Received disconnect from 203.0.113.88 port 56858:11: Bye Bye [preauth]
+Oct 04 21:25:25 bastion sshd[5526]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:25:25 bastion sshd[5526]: Failed password for root from 203.0.113.88 port 40588 ssh2
+Oct 04 21:25:25 bastion sshd[5526]: Received disconnect from 203.0.113.88 port 40588:11: Bye Bye [preauth]
+Oct 04 21:25:27 bastion sshd[7365]: Invalid user ftpuser from 192.0.2.15 port 44795
+Oct 04 21:25:27 bastion sshd[7365]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:25:27 bastion sshd[7365]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:25:27 bastion sshd[7365]: Failed password for invalid user ftpuser from 192.0.2.15 port 44795 ssh2
+Oct 04 21:25:27 bastion sshd[7365]: Received disconnect from 192.0.2.15 port 44795:11: Bye Bye [preauth]
+Oct 04 21:25:29 bastion sshd[5245]: Invalid user nagios from 192.0.2.15 port 55290
+Oct 04 21:25:29 bastion sshd[5245]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:25:29 bastion sshd[5245]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:25:29 bastion sshd[5245]: Failed password for invalid user nagios from 192.0.2.15 port 55290 ssh2
+Oct 04 21:25:29 bastion sshd[5245]: Received disconnect from 192.0.2.15 port 55290:11: Bye Bye [preauth]
+Oct 04 21:25:32 bastion sshd[6271]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:25:32 bastion sshd[6271]: Failed password for admin from 203.0.113.88 port 51328 ssh2
+Oct 04 21:25:32 bastion sshd[6271]: Received disconnect from 203.0.113.88 port 51328:11: Bye Bye [preauth]
+Oct 04 21:25:33 bastion sshd[8704]: Invalid user oracle from 203.0.113.88 port 51651
+Oct 04 21:25:33 bastion sshd[8704]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:25:33 bastion sshd[8704]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:25:33 bastion sshd[8704]: Failed password for invalid user oracle from 203.0.113.88 port 51651 ssh2
+Oct 04 21:25:33 bastion sshd[8704]: Received disconnect from 203.0.113.88 port 51651:11: Bye Bye [preauth]
+Oct 04 21:25:34 bastion sshd[4075]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=postgres
+Oct 04 21:25:34 bastion sshd[4075]: Failed password for postgres from 203.0.113.88 port 56573 ssh2
+Oct 04 21:25:34 bastion sshd[4075]: Received disconnect from 203.0.113.88 port 56573:11: Bye Bye [preauth]
+Oct 04 21:25:37 bastion sshd[6993]: Invalid user oracle from 203.0.113.88 port 57126
+Oct 04 21:25:37 bastion sshd[6993]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:25:37 bastion sshd[6993]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:25:37 bastion sshd[6993]: Failed password for invalid user oracle from 203.0.113.88 port 57126 ssh2
+Oct 04 21:25:37 bastion sshd[6993]: Received disconnect from 203.0.113.88 port 57126:11: Bye Bye [preauth]
+Oct 04 21:25:41 bastion sshd[8286]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:25:41 bastion sshd[8286]: Failed password for admin from 203.0.113.88 port 59331 ssh2
+Oct 04 21:25:41 bastion sshd[8286]: Received disconnect from 203.0.113.88 port 59331:11: Bye Bye [preauth]
+Oct 04 21:25:42 bastion sshd[3422]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:25:42 bastion sshd[3422]: Failed password for jenkins from 192.0.2.15 port 55862 ssh2
+Oct 04 21:25:42 bastion sshd[3422]: Received disconnect from 192.0.2.15 port 55862:11: Bye Bye [preauth]
+Oct 04 21:25:43 bastion sshd[6192]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:25:43 bastion sshd[6192]: Failed password for ubuntu from 203.0.113.88 port 35562 ssh2
+Oct 04 21:25:43 bastion sshd[6192]: Received disconnect from 203.0.113.88 port 35562:11: Bye Bye [preauth]
+Oct 04 21:25:46 bastion sshd[3801]: Invalid user minecraft from 192.0.2.15 port 43046
+Oct 04 21:25:46 bastion sshd[3801]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:25:46 bastion sshd[3801]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:25:46 bastion sshd[3801]: Failed password for invalid user minecraft from 192.0.2.15 port 43046 ssh2
+Oct 04 21:25:46 bastion sshd[3801]: Received disconnect from 192.0.2.15 port 43046:11: Bye Bye [preauth]
+Oct 04 21:25:47 bastion sshd[7626]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:25:47 bastion sshd[7626]: Failed password for admin from 203.0.113.88 port 38456 ssh2
+Oct 04 21:25:47 bastion sshd[7626]: Received disconnect from 203.0.113.88 port 38456:11: Bye Bye [preauth]
+Oct 04 21:25:48 bastion sshd[4082]: Invalid user nagios from 192.0.2.15 port 39018
+Oct 04 21:25:48 bastion sshd[4082]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:25:48 bastion sshd[4082]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:25:48 bastion sshd[4082]: Failed password for invalid user nagios from 192.0.2.15 port 39018 ssh2
+Oct 04 21:25:48 bastion sshd[4082]: Received disconnect from 192.0.2.15 port 39018:11: Bye Bye [preauth]
+Oct 04 21:25:51 bastion sshd[5610]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:25:51 bastion sshd[5610]: Failed password for git from 192.0.2.15 port 45123 ssh2
+Oct 04 21:25:51 bastion sshd[5610]: Received disconnect from 192.0.2.15 port 45123:11: Bye Bye [preauth]
+Oct 04 21:25:54 bastion sshd[4548]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:25:54 bastion sshd[4548]: Failed password for user from 203.0.113.88 port 64670 ssh2
+Oct 04 21:25:54 bastion sshd[4548]: Received disconnect from 203.0.113.88 port 64670:11: Bye Bye [preauth]
+Oct 04 21:25:58 bastion sshd[6471]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:25:58 bastion sshd[6471]: Failed password for guest from 203.0.113.88 port 39526 ssh2
+Oct 04 21:25:58 bastion sshd[6471]: Received disconnect from 203.0.113.88 port 39526:11: Bye Bye [preauth]
+Oct 04 21:26:01 bastion sshd[7774]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:26:01 bastion sshd[7774]: Failed password for ansible from 192.0.2.15 port 31190 ssh2
+Oct 04 21:26:01 bastion sshd[7774]: Received disconnect from 192.0.2.15 port 31190:11: Bye Bye [preauth]
+Oct 04 21:26:04 bastion sshd[7513]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:26:04 bastion sshd[7513]: Failed password for test from 203.0.113.88 port 35058 ssh2
+Oct 04 21:26:04 bastion sshd[7513]: Received disconnect from 203.0.113.88 port 35058:11: Bye Bye [preauth]
+Oct 04 21:26:08 bastion sshd[4213]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:26:08 bastion sshd[4213]: Failed password for jenkins from 192.0.2.15 port 36146 ssh2
+Oct 04 21:26:08 bastion sshd[4213]: Received disconnect from 192.0.2.15 port 36146:11: Bye Bye [preauth]
+Oct 04 21:26:09 bastion sshd[8010]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:26:09 bastion sshd[8010]: Failed password for guest from 203.0.113.88 port 46912 ssh2
+Oct 04 21:26:09 bastion sshd[8010]: Received disconnect from 203.0.113.88 port 46912:11: Bye Bye [preauth]
+Oct 04 21:26:11 bastion sshd[5482]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:26:11 bastion sshd[5482]: Failed password for test from 203.0.113.88 port 34562 ssh2
+Oct 04 21:26:11 bastion sshd[5482]: Received disconnect from 203.0.113.88 port 34562:11: Bye Bye [preauth]
+Oct 04 21:26:14 bastion sshd[4630]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:26:14 bastion sshd[4630]: Failed password for user from 203.0.113.88 port 42611 ssh2
+Oct 04 21:26:14 bastion sshd[4630]: Received disconnect from 203.0.113.88 port 42611:11: Bye Bye [preauth]
+Oct 04 21:26:18 bastion sshd[7400]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:26:18 bastion sshd[7400]: Failed password for ansible from 192.0.2.15 port 62169 ssh2
+Oct 04 21:26:18 bastion sshd[7400]: Received disconnect from 192.0.2.15 port 62169:11: Bye Bye [preauth]
+Oct 04 21:26:19 bastion sshd[6856]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:26:19 bastion sshd[6856]: Failed password for test from 203.0.113.88 port 51724 ssh2
+Oct 04 21:26:19 bastion sshd[6856]: Received disconnect from 203.0.113.88 port 51724:11: Bye Bye [preauth]
+Oct 04 21:26:21 bastion sshd[4173]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:26:21 bastion sshd[4173]: Failed password for jenkins from 192.0.2.15 port 49155 ssh2
+Oct 04 21:26:21 bastion sshd[4173]: Received disconnect from 192.0.2.15 port 49155:11: Bye Bye [preauth]
+Oct 04 21:26:23 bastion sshd[4447]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=postgres
+Oct 04 21:26:23 bastion sshd[4447]: Failed password for postgres from 203.0.113.88 port 50794 ssh2
+Oct 04 21:26:23 bastion sshd[4447]: Received disconnect from 203.0.113.88 port 50794:11: Bye Bye [preauth]
+Oct 04 21:26:26 bastion sshd[6066]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:26:26 bastion sshd[6066]: Failed password for ansible from 192.0.2.15 port 36840 ssh2
+Oct 04 21:26:26 bastion sshd[6066]: Received disconnect from 192.0.2.15 port 36840:11: Bye Bye [preauth]
+Oct 04 21:26:30 bastion sshd[6481]: Invalid user minecraft from 192.0.2.15 port 43617
+Oct 04 21:26:30 bastion sshd[6481]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:26:30 bastion sshd[6481]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:26:30 bastion sshd[6481]: Failed password for invalid user minecraft from 192.0.2.15 port 43617 ssh2
+Oct 04 21:26:30 bastion sshd[6481]: Received disconnect from 192.0.2.15 port 43617:11: Bye Bye [preauth]
+Oct 04 21:26:34 bastion sshd[8104]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:26:34 bastion sshd[8104]: Failed password for user from 203.0.113.88 port 51192 ssh2
+Oct 04 21:26:34 bastion sshd[8104]: Received disconnect from 203.0.113.88 port 51192:11: Bye Bye [preauth]
+Oct 04 21:26:37 bastion sshd[3201]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:26:37 bastion sshd[3201]: Failed password for admin from 203.0.113.88 port 60143 ssh2
+Oct 04 21:26:37 bastion sshd[3201]: Received disconnect from 203.0.113.88 port 60143:11: Bye Bye [preauth]
+Oct 04 21:26:38 bastion sshd[6698]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:26:38 bastion sshd[6698]: Failed password for ubuntu from 203.0.113.88 port 41779 ssh2
+Oct 04 21:26:38 bastion sshd[6698]: Received disconnect from 203.0.113.88 port 41779:11: Bye Bye [preauth]
+Oct 04 21:26:41 bastion sshd[3302]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:26:41 bastion sshd[3302]: Failed password for git from 192.0.2.15 port 44436 ssh2
+Oct 04 21:26:41 bastion sshd[3302]: Received disconnect from 192.0.2.15 port 44436:11: Bye Bye [preauth]
+Oct 04 21:26:45 bastion sshd[3697]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:26:45 bastion sshd[3697]: Failed password for support from 192.0.2.15 port 48874 ssh2
+Oct 04 21:26:45 bastion sshd[3697]: Received disconnect from 192.0.2.15 port 48874:11: Bye Bye [preauth]
+Oct 04 21:26:48 bastion sshd[5567]: Invalid user nagios from 192.0.2.15 port 51172
+Oct 04 21:26:48 bastion sshd[5567]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:26:48 bastion sshd[5567]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:26:48 bastion sshd[5567]: Failed password for invalid user nagios from 192.0.2.15 port 51172 ssh2
+Oct 04 21:26:48 bastion sshd[5567]: Received disconnect from 192.0.2.15 port 51172:11: Bye Bye [preauth]
+Oct 04 21:26:50 bastion sshd[6379]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=postgres
+Oct 04 21:26:50 bastion sshd[6379]: Failed password for postgres from 203.0.113.88 port 56850 ssh2
+Oct 04 21:26:50 bastion sshd[6379]: Received disconnect from 203.0.113.88 port 56850:11: Bye Bye [preauth]
+Oct 04 21:26:53 bastion sshd[8885]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:26:53 bastion sshd[8885]: Failed password for git from 192.0.2.15 port 50039 ssh2
+Oct 04 21:26:53 bastion sshd[8885]: Received disconnect from 192.0.2.15 port 50039:11: Bye Bye [preauth]
+Oct 04 21:26:54 bastion sshd[5166]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:26:54 bastion sshd[5166]: Failed password for root from 203.0.113.88 port 41991 ssh2
+Oct 04 21:26:54 bastion sshd[5166]: Received disconnect from 203.0.113.88 port 41991:11: Bye Bye [preauth]
+Oct 04 21:26:58 bastion sshd[8011]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:26:58 bastion sshd[8011]: Failed password for guest from 203.0.113.88 port 31820 ssh2
+Oct 04 21:26:58 bastion sshd[8011]: Received disconnect from 203.0.113.88 port 31820:11: Bye Bye [preauth]
+Oct 04 21:27:01 bastion sshd[8856]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:27:01 bastion sshd[8856]: Failed password for user from 203.0.113.88 port 48018 ssh2
+Oct 04 21:27:01 bastion sshd[8856]: Received disconnect from 203.0.113.88 port 48018:11: Bye Bye [preauth]
+Oct 04 21:27:04 bastion sshd[8063]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:27:04 bastion sshd[8063]: Failed password for admin from 203.0.113.88 port 58308 ssh2
+Oct 04 21:27:04 bastion sshd[8063]: Received disconnect from 203.0.113.88 port 58308:11: Bye Bye [preauth]
+Oct 04 21:27:08 bastion sshd[6859]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:27:08 bastion sshd[6859]: Failed password for jenkins from 192.0.2.15 port 57328 ssh2
+Oct 04 21:27:08 bastion sshd[6859]: Received disconnect from 192.0.2.15 port 57328:11: Bye Bye [preauth]
+Oct 04 21:27:12 bastion sshd[6469]: Invalid user ftpuser from 192.0.2.15 port 56690
+Oct 04 21:27:12 bastion sshd[6469]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:27:12 bastion sshd[6469]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:27:12 bastion sshd[6469]: Failed password for invalid user ftpuser from 192.0.2.15 port 56690 ssh2
+Oct 04 21:27:12 bastion sshd[6469]: Received disconnect from 192.0.2.15 port 56690:11: Bye Bye [preauth]
+Oct 04 21:27:15 bastion sshd[3730]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:27:15 bastion sshd[3730]: Failed password for support from 192.0.2.15 port 35260 ssh2
+Oct 04 21:27:15 bastion sshd[3730]: Received disconnect from 192.0.2.15 port 35260:11: Bye Bye [preauth]
+Oct 04 21:27:16 bastion sshd[7491]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:27:16 bastion sshd[7491]: Failed password for guest from 203.0.113.88 port 36517 ssh2
+Oct 04 21:27:16 bastion sshd[7491]: Received disconnect from 203.0.113.88 port 36517:11: Bye Bye [preauth]
+Oct 04 21:27:18 bastion sshd[3476]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:27:18 bastion sshd[3476]: Failed password for root from 203.0.113.88 port 30439 ssh2
+Oct 04 21:27:18 bastion sshd[3476]: Received disconnect from 203.0.113.88 port 30439:11: Bye Bye [preauth]
+Oct 04 21:27:19 bastion sshd[3483]: Invalid user nagios from 192.0.2.15 port 44572
+Oct 04 21:27:19 bastion sshd[3483]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:27:19 bastion sshd[3483]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:27:19 bastion sshd[3483]: Failed password for invalid user nagios from 192.0.2.15 port 44572 ssh2
+Oct 04 21:27:19 bastion sshd[3483]: Received disconnect from 192.0.2.15 port 44572:11: Bye Bye [preauth]
+Oct 04 21:27:21 bastion sshd[4351]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:27:21 bastion sshd[4351]: Failed password for ubuntu from 203.0.113.88 port 54678 ssh2
+Oct 04 21:27:21 bastion sshd[4351]: Received disconnect from 203.0.113.88 port 54678:11: Bye Bye [preauth]
+Oct 04 21:27:24 bastion sshd[7817]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:27:24 bastion sshd[7817]: Failed password for guest from 203.0.113.88 port 54884 ssh2
+Oct 04 21:27:24 bastion sshd[7817]: Received disconnect from 203.0.113.88 port 54884:11: Bye Bye [preauth]
+Oct 04 21:27:28 bastion sshd[8392]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:27:28 bastion sshd[8392]: Failed password for user from 203.0.113.88 port 64946 ssh2
+Oct 04 21:27:28 bastion sshd[8392]: Received disconnect from 203.0.113.88 port 64946:11: Bye Bye [preauth]
+Oct 04 21:27:30 bastion sshd[8592]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:27:30 bastion sshd[8592]: Failed password for guest from 203.0.113.88 port 51999 ssh2
+Oct 04 21:27:30 bastion sshd[8592]: Received disconnect from 203.0.113.88 port 51999:11: Bye Bye [preauth]
+Oct 04 21:27:33 bastion sshd[3418]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:27:33 bastion sshd[3418]: Failed password for user from 203.0.113.88 port 32043 ssh2
+Oct 04 21:27:33 bastion sshd[3418]: Received disconnect from 203.0.113.88 port 32043:11: Bye Bye [preauth]
+Oct 04 21:27:36 bastion sshd[6967]: Invalid user nagios from 192.0.2.15 port 46399
+Oct 04 21:27:36 bastion sshd[6967]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:27:36 bastion sshd[6967]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:27:36 bastion sshd[6967]: Failed password for invalid user nagios from 192.0.2.15 port 46399 ssh2
+Oct 04 21:27:36 bastion sshd[6967]: Received disconnect from 192.0.2.15 port 46399:11: Bye Bye [preauth]
+Oct 04 21:27:39 bastion sshd[4103]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:27:39 bastion sshd[4103]: Failed password for git from 192.0.2.15 port 49974 ssh2
+Oct 04 21:27:39 bastion sshd[4103]: Received disconnect from 192.0.2.15 port 49974:11: Bye Bye [preauth]
+Oct 04 21:27:43 bastion sshd[3543]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:27:43 bastion sshd[3543]: Failed password for ubuntu from 203.0.113.88 port 61924 ssh2
+Oct 04 21:27:43 bastion sshd[3543]: Received disconnect from 203.0.113.88 port 61924:11: Bye Bye [preauth]
+Oct 04 21:27:46 bastion sshd[5210]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:27:46 bastion sshd[5210]: Failed password for ansible from 192.0.2.15 port 51934 ssh2
+Oct 04 21:27:46 bastion sshd[5210]: Received disconnect from 192.0.2.15 port 51934:11: Bye Bye [preauth]
+Oct 04 21:27:47 bastion sshd[8582]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:27:47 bastion sshd[8582]: Failed password for guest from 203.0.113.88 port 33854 ssh2
+Oct 04 21:27:47 bastion sshd[8582]: Received disconnect from 203.0.113.88 port 33854:11: Bye Bye [preauth]
+Oct 04 21:27:50 bastion sshd[5891]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:27:50 bastion sshd[5891]: Failed password for support from 192.0.2.15 port 51204 ssh2
+Oct 04 21:27:50 bastion sshd[5891]: Received disconnect from 192.0.2.15 port 51204:11: Bye Bye [preauth]
+Oct 04 21:27:54 bastion sshd[8500]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:27:54 bastion sshd[8500]: Failed password for test from 203.0.113.88 port 37896 ssh2
+Oct 04 21:27:54 bastion sshd[8500]: Received disconnect from 203.0.113.88 port 37896:11: Bye Bye [preauth]
+Oct 04 21:27:58 bastion sshd[8581]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:27:58 bastion sshd[8581]: Failed password for guest from 203.0.113.88 port 47624 ssh2
+Oct 04 21:27:58 bastion sshd[8581]: Received disconnect from 203.0.113.88 port 47624:11: Bye Bye [preauth]
+Oct 04 21:28:02 bastion sshd[7897]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:28:02 bastion sshd[7897]: Failed password for git from 192.0.2.15 port 34726 ssh2
+Oct 04 21:28:02 bastion sshd[7897]: Received disconnect from 192.0.2.15 port 34726:11: Bye Bye [preauth]
+Oct 04 21:28:05 bastion sshd[5713]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:28:05 bastion sshd[5713]: Failed password for jenkins from 192.0.2.15 port 44200 ssh2
+Oct 04 21:28:05 bastion sshd[5713]: Received disconnect from 192.0.2.15 port 44200:11: Bye Bye [preauth]
+Oct 04 21:28:08 bastion sshd[5844]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:28:08 bastion sshd[5844]: Failed password for guest from 203.0.113.88 port 37511 ssh2
+Oct 04 21:28:08 bastion sshd[5844]: Received disconnect from 203.0.113.88 port 37511:11: Bye Bye [preauth]
+Oct 04 21:28:09 bastion sshd[3344]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:28:09 bastion sshd[3344]: Failed password for git from 192.0.2.15 port 60489 ssh2
+Oct 04 21:28:09 bastion sshd[3344]: Received disconnect from 192.0.2.15 port 60489:11: Bye Bye [preauth]
+Oct 04 21:28:11 bastion sshd[5845]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:28:11 bastion sshd[5845]: Failed password for admin from 203.0.113.88 port 63740 ssh2
+Oct 04 21:28:11 bastion sshd[5845]: Received disconnect from 203.0.113.88 port 63740:11: Bye Bye [preauth]
+Oct 04 21:28:15 bastion sshd[6541]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:28:15 bastion sshd[6541]: Failed password for admin from 203.0.113.88 port 54675 ssh2
+Oct 04 21:28:15 bastion sshd[6541]: Received disconnect from 203.0.113.88 port 54675:11: Bye Bye [preauth]
+Oct 04 21:28:17 bastion sshd[8842]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:28:17 bastion sshd[8842]: Failed password for test from 203.0.113.88 port 36758 ssh2
+Oct 04 21:28:17 bastion sshd[8842]: Received disconnect from 203.0.113.88 port 36758:11: Bye Bye [preauth]
+Oct 04 21:28:19 bastion sshd[6739]: Invalid user ftpuser from 192.0.2.15 port 43556
+Oct 04 21:28:19 bastion sshd[6739]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:28:19 bastion sshd[6739]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:28:19 bastion sshd[6739]: Failed password for invalid user ftpuser from 192.0.2.15 port 43556 ssh2
+Oct 04 21:28:19 bastion sshd[6739]: Received disconnect from 192.0.2.15 port 43556:11: Bye Bye [preauth]
+Oct 04 21:28:22 bastion sshd[7435]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:28:22 bastion sshd[7435]: Failed password for ubuntu from 203.0.113.88 port 44783 ssh2
+Oct 04 21:28:22 bastion sshd[7435]: Received disconnect from 203.0.113.88 port 44783:11: Bye Bye [preauth]
+Oct 04 21:28:24 bastion sshd[6525]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:28:24 bastion sshd[6525]: Failed password for test from 203.0.113.88 port 42577 ssh2
+Oct 04 21:28:24 bastion sshd[6525]: Received disconnect from 203.0.113.88 port 42577:11: Bye Bye [preauth]
+Oct 04 21:28:26 bastion sshd[3999]: Invalid user minecraft from 192.0.2.15 port 57972
+Oct 04 21:28:26 bastion sshd[3999]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:28:26 bastion sshd[3999]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:28:26 bastion sshd[3999]: Failed password for invalid user minecraft from 192.0.2.15 port 57972 ssh2
+Oct 04 21:28:26 bastion sshd[3999]: Received disconnect from 192.0.2.15 port 57972:11: Bye Bye [preauth]
+Oct 04 21:28:30 bastion sshd[6699]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:28:30 bastion sshd[6699]: Failed password for root from 203.0.113.88 port 56699 ssh2
+Oct 04 21:28:30 bastion sshd[6699]: Received disconnect from 203.0.113.88 port 56699:11: Bye Bye [preauth]
+Oct 04 21:28:31 bastion sshd[3472]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:28:31 bastion sshd[3472]: Failed password for jenkins from 192.0.2.15 port 38686 ssh2
+Oct 04 21:28:31 bastion sshd[3472]: Received disconnect from 192.0.2.15 port 38686:11: Bye Bye [preauth]
+Oct 04 21:28:34 bastion sshd[6924]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:28:34 bastion sshd[6924]: Failed password for test from 203.0.113.88 port 44741 ssh2
+Oct 04 21:28:34 bastion sshd[6924]: Received disconnect from 203.0.113.88 port 44741:11: Bye Bye [preauth]
+Oct 04 21:28:36 bastion sshd[4577]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:28:36 bastion sshd[4577]: Failed password for admin from 203.0.113.88 port 57217 ssh2
+Oct 04 21:28:36 bastion sshd[4577]: Received disconnect from 203.0.113.88 port 57217:11: Bye Bye [preauth]
+Oct 04 21:28:38 bastion sshd[4598]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:28:38 bastion sshd[4598]: Failed password for jenkins from 192.0.2.15 port 46570 ssh2
+Oct 04 21:28:38 bastion sshd[4598]: Received disconnect from 192.0.2.15 port 46570:11: Bye Bye [preauth]
+Oct 04 21:28:40 bastion sshd[8837]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=test
+Oct 04 21:28:40 bastion sshd[8837]: Failed password for test from 203.0.113.88 port 44961 ssh2
+Oct 04 21:28:40 bastion sshd[8837]: Received disconnect from 203.0.113.88 port 44961:11: Bye Bye [preauth]
+Oct 04 21:28:44 bastion sshd[3129]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=postgres
+Oct 04 21:28:44 bastion sshd[3129]: Failed password for postgres from 203.0.113.88 port 45580 ssh2
+Oct 04 21:28:44 bastion sshd[3129]: Received disconnect from 203.0.113.88 port 45580:11: Bye Bye [preauth]
+Oct 04 21:28:46 bastion sshd[8612]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:28:46 bastion sshd[8612]: Failed password for admin from 203.0.113.88 port 43302 ssh2
+Oct 04 21:28:46 bastion sshd[8612]: Received disconnect from 203.0.113.88 port 43302:11: Bye Bye [preauth]
+Oct 04 21:28:47 bastion sshd[7319]: Invalid user minecraft from 192.0.2.15 port 60350
+Oct 04 21:28:47 bastion sshd[7319]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:28:47 bastion sshd[7319]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:28:47 bastion sshd[7319]: Failed password for invalid user minecraft from 192.0.2.15 port 60350 ssh2
+Oct 04 21:28:47 bastion sshd[7319]: Received disconnect from 192.0.2.15 port 60350:11: Bye Bye [preauth]
+Oct 04 21:28:50 bastion sshd[7148]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:28:50 bastion sshd[7148]: Failed password for ansible from 192.0.2.15 port 54701 ssh2
+Oct 04 21:28:50 bastion sshd[7148]: Received disconnect from 192.0.2.15 port 54701:11: Bye Bye [preauth]
+Oct 04 21:28:51 bastion sshd[7363]: Invalid user minecraft from 192.0.2.15 port 63139
+Oct 04 21:28:51 bastion sshd[7363]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:28:51 bastion sshd[7363]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:28:51 bastion sshd[7363]: Failed password for invalid user minecraft from 192.0.2.15 port 63139 ssh2
+Oct 04 21:28:51 bastion sshd[7363]: Received disconnect from 192.0.2.15 port 63139:11: Bye Bye [preauth]
+Oct 04 21:28:53 bastion sshd[8451]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:28:53 bastion sshd[8451]: Failed password for ubuntu from 203.0.113.88 port 38476 ssh2
+Oct 04 21:28:53 bastion sshd[8451]: Received disconnect from 203.0.113.88 port 38476:11: Bye Bye [preauth]
+Oct 04 21:28:54 bastion sshd[3151]: Invalid user nagios from 192.0.2.15 port 50400
+Oct 04 21:28:54 bastion sshd[3151]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:28:54 bastion sshd[3151]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:28:54 bastion sshd[3151]: Failed password for invalid user nagios from 192.0.2.15 port 50400 ssh2
+Oct 04 21:28:54 bastion sshd[3151]: Received disconnect from 192.0.2.15 port 50400:11: Bye Bye [preauth]
+Oct 04 21:28:57 bastion sshd[5438]: Invalid user ftpuser from 192.0.2.15 port 63113
+Oct 04 21:28:57 bastion sshd[5438]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:28:57 bastion sshd[5438]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:28:57 bastion sshd[5438]: Failed password for invalid user ftpuser from 192.0.2.15 port 63113 ssh2
+Oct 04 21:28:57 bastion sshd[5438]: Received disconnect from 192.0.2.15 port 63113:11: Bye Bye [preauth]
+Oct 04 21:29:00 bastion sshd[6855]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=ubuntu
+Oct 04 21:29:00 bastion sshd[6855]: Failed password for ubuntu from 203.0.113.88 port 47309 ssh2
+Oct 04 21:29:00 bastion sshd[6855]: Received disconnect from 203.0.113.88 port 47309:11: Bye Bye [preauth]
+Oct 04 21:29:03 bastion sshd[5914]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:29:03 bastion sshd[5914]: Failed password for git from 192.0.2.15 port 42623 ssh2
+Oct 04 21:29:03 bastion sshd[5914]: Received disconnect from 192.0.2.15 port 42623:11: Bye Bye [preauth]
+Oct 04 21:29:06 bastion sshd[6926]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:29:06 bastion sshd[6926]: Failed password for jenkins from 192.0.2.15 port 59107 ssh2
+Oct 04 21:29:06 bastion sshd[6926]: Received disconnect from 192.0.2.15 port 59107:11: Bye Bye [preauth]
+Oct 04 21:29:08 bastion sshd[3782]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:29:08 bastion sshd[3782]: Failed password for ansible from 192.0.2.15 port 61507 ssh2
+Oct 04 21:29:08 bastion sshd[3782]: Received disconnect from 192.0.2.15 port 61507:11: Bye Bye [preauth]
+Oct 04 21:29:10 bastion sshd[6514]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:29:10 bastion sshd[6514]: Failed password for user from 203.0.113.88 port 64509 ssh2
+Oct 04 21:29:10 bastion sshd[6514]: Received disconnect from 203.0.113.88 port 64509:11: Bye Bye [preauth]
+Oct 04 21:29:13 bastion sshd[6661]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:29:13 bastion sshd[6661]: Failed password for ansible from 192.0.2.15 port 50336 ssh2
+Oct 04 21:29:13 bastion sshd[6661]: Received disconnect from 192.0.2.15 port 50336:11: Bye Bye [preauth]
+Oct 04 21:29:14 bastion sshd[6877]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=guest
+Oct 04 21:29:14 bastion sshd[6877]: Failed password for guest from 203.0.113.88 port 45911 ssh2
+Oct 04 21:29:14 bastion sshd[6877]: Received disconnect from 203.0.113.88 port 45911:11: Bye Bye [preauth]
+Oct 04 21:29:18 bastion sshd[8822]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:29:18 bastion sshd[8822]: Failed password for root from 203.0.113.88 port 58554 ssh2
+Oct 04 21:29:18 bastion sshd[8822]: Received disconnect from 203.0.113.88 port 58554:11: Bye Bye [preauth]
+Oct 04 21:29:21 bastion sshd[8624]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=ansible
+Oct 04 21:29:21 bastion sshd[8624]: Failed password for ansible from 192.0.2.15 port 57106 ssh2
+Oct 04 21:29:21 bastion sshd[8624]: Received disconnect from 192.0.2.15 port 57106:11: Bye Bye [preauth]
+Oct 04 21:29:24 bastion sshd[8039]: Invalid user minecraft from 192.0.2.15 port 37035
+Oct 04 21:29:24 bastion sshd[8039]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:29:24 bastion sshd[8039]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:29:24 bastion sshd[8039]: Failed password for invalid user minecraft from 192.0.2.15 port 37035 ssh2
+Oct 04 21:29:24 bastion sshd[8039]: Received disconnect from 192.0.2.15 port 37035:11: Bye Bye [preauth]
+Oct 04 21:29:25 bastion sshd[5325]: Invalid user nagios from 192.0.2.15 port 52422
+Oct 04 21:29:25 bastion sshd[5325]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:29:25 bastion sshd[5325]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:29:25 bastion sshd[5325]: Failed password for invalid user nagios from 192.0.2.15 port 52422 ssh2
+Oct 04 21:29:25 bastion sshd[5325]: Received disconnect from 192.0.2.15 port 52422:11: Bye Bye [preauth]
+Oct 04 21:29:26 bastion sshd[7042]: Invalid user nagios from 192.0.2.15 port 46638
+Oct 04 21:29:26 bastion sshd[7042]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:29:26 bastion sshd[7042]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:29:26 bastion sshd[7042]: Failed password for invalid user nagios from 192.0.2.15 port 46638 ssh2
+Oct 04 21:29:26 bastion sshd[7042]: Received disconnect from 192.0.2.15 port 46638:11: Bye Bye [preauth]
+Oct 04 21:29:28 bastion sshd[7469]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:29:28 bastion sshd[7469]: Failed password for admin from 203.0.113.88 port 61398 ssh2
+Oct 04 21:29:28 bastion sshd[7469]: Received disconnect from 203.0.113.88 port 61398:11: Bye Bye [preauth]
+Oct 04 21:29:31 bastion sshd[8335]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:29:31 bastion sshd[8335]: Failed password for admin from 203.0.113.88 port 56489 ssh2
+Oct 04 21:29:31 bastion sshd[8335]: Received disconnect from 203.0.113.88 port 56489:11: Bye Bye [preauth]
+Oct 04 21:29:32 bastion sshd[7516]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=support
+Oct 04 21:29:32 bastion sshd[7516]: Failed password for support from 192.0.2.15 port 45496 ssh2
+Oct 04 21:29:32 bastion sshd[7516]: Received disconnect from 192.0.2.15 port 45496:11: Bye Bye [preauth]
+Oct 04 21:29:36 bastion sshd[7636]: Invalid user minecraft from 192.0.2.15 port 54412
+Oct 04 21:29:36 bastion sshd[7636]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:29:36 bastion sshd[7636]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:29:36 bastion sshd[7636]: Failed password for invalid user minecraft from 192.0.2.15 port 54412 ssh2
+Oct 04 21:29:36 bastion sshd[7636]: Received disconnect from 192.0.2.15 port 54412:11: Bye Bye [preauth]
+Oct 04 21:29:40 bastion sshd[3168]: Invalid user nagios from 192.0.2.15 port 51437
+Oct 04 21:29:40 bastion sshd[3168]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:29:40 bastion sshd[3168]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:29:40 bastion sshd[3168]: Failed password for invalid user nagios from 192.0.2.15 port 51437 ssh2
+Oct 04 21:29:40 bastion sshd[3168]: Received disconnect from 192.0.2.15 port 51437:11: Bye Bye [preauth]
+Oct 04 21:29:42 bastion sshd[3774]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=user
+Oct 04 21:29:42 bastion sshd[3774]: Failed password for user from 203.0.113.88 port 62472 ssh2
+Oct 04 21:29:42 bastion sshd[3774]: Received disconnect from 203.0.113.88 port 62472:11: Bye Bye [preauth]
+Oct 04 21:29:46 bastion sshd[4399]: Invalid user oracle from 203.0.113.88 port 55295
+Oct 04 21:29:46 bastion sshd[4399]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:29:46 bastion sshd[4399]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88
+Oct 04 21:29:46 bastion sshd[4399]: Failed password for invalid user oracle from 203.0.113.88 port 55295 ssh2
+Oct 04 21:29:46 bastion sshd[4399]: Received disconnect from 203.0.113.88 port 55295:11: Bye Bye [preauth]
+Oct 04 21:29:49 bastion sshd[3475]: Invalid user nagios from 192.0.2.15 port 49999
+Oct 04 21:29:49 bastion sshd[3475]: pam_unix(sshd:auth): check pass; user unknown
+Oct 04 21:29:49 bastion sshd[3475]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15
+Oct 04 21:29:49 bastion sshd[3475]: Failed password for invalid user nagios from 192.0.2.15 port 49999 ssh2
+Oct 04 21:29:49 bastion sshd[3475]: Received disconnect from 192.0.2.15 port 49999:11: Bye Bye [preauth]
+Oct 04 21:29:52 bastion sshd[7393]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:29:52 bastion sshd[7393]: Failed password for jenkins from 192.0.2.15 port 39609 ssh2
+Oct 04 21:29:52 bastion sshd[7393]: Received disconnect from 192.0.2.15 port 39609:11: Bye Bye [preauth]
+Oct 04 21:29:55 bastion sshd[8609]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=admin
+Oct 04 21:29:55 bastion sshd[8609]: Failed password for admin from 203.0.113.88 port 50572 ssh2
+Oct 04 21:29:55 bastion sshd[8609]: Received disconnect from 203.0.113.88 port 50572:11: Bye Bye [preauth]
+Oct 04 21:29:57 bastion sshd[5688]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.88  user=root
+Oct 04 21:29:57 bastion sshd[5688]: Failed password for root from 203.0.113.88 port 47737 ssh2
+Oct 04 21:29:57 bastion sshd[5688]: Received disconnect from 203.0.113.88 port 47737:11: Bye Bye [preauth]
+Oct 04 21:30:01 bastion sshd[4924]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=git
+Oct 04 21:30:01 bastion sshd[4924]: Failed password for git from 192.0.2.15 port 39516 ssh2
+Oct 04 21:30:01 bastion sshd[4924]: Received disconnect from 192.0.2.15 port 39516:11: Bye Bye [preauth]
+Oct 04 21:30:04 bastion sshd[6244]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.15  user=jenkins
+Oct 04 21:30:04 bastion sshd[6244]: Failed password for jenkins from 192.0.2.15 port 47256 ssh2
+Oct 04 21:30:04 bastion sshd[6244]: Received disconnect from 192.0.2.15 port 47256:11: Bye Bye [preauth]
+Oct 04 21:36:23 bastion sshd[2951]: Accepted publickey for alice from 10.0.10.15 port 47763 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 21:36:23 bastion sshd[2951]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 04 21:48:51 bastion sshd[2311]: Accepted publickey for alice from 10.0.10.15 port 45182 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 21:48:51 bastion sshd[2311]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 04 22:00:44 bastion sshd[2436]: Accepted publickey for sysadmin from 10.0.10.15 port 41721 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 22:00:44 bastion sshd[2436]: pam_unix(sshd:session): session opened for user sysadmin by (uid=0)
+Oct 04 22:12:09 bastion sshd[2051]: Accepted publickey for sysadmin from 10.0.10.15 port 50042 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 22:12:09 bastion sshd[2051]: pam_unix(sshd:session): session opened for user sysadmin by (uid=0)
+Oct 04 22:12:09 bastion sudo: sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 22:12:09 bastion sudo: pam_unix(sudo:session): session opened for user root by sysadmin(uid=1000)
+Oct 04 22:12:09 bastion sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 22:24:27 bastion sshd[2929]: Accepted publickey for deploy from 10.0.10.15 port 46265 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 22:24:27 bastion sshd[2929]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct 04 22:24:27 bastion sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 22:24:27 bastion sudo: pam_unix(sudo:session): session opened for user root by deploy(uid=1000)
+Oct 04 22:24:27 bastion sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 22:36:42 bastion sshd[2793]: Accepted publickey for deploy from 10.0.10.15 port 59696 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 22:36:42 bastion sshd[2793]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct 04 22:36:42 bastion sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 22:36:42 bastion sudo: pam_unix(sudo:session): session opened for user root by deploy(uid=1000)
+Oct 04 22:36:42 bastion sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 22:45:13 bastion sshd[9100]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42  user=developer
+Oct 04 22:45:13 bastion sshd[9100]: Failed password for developer from 198.51.100.42 port 45100 ssh2
+Oct 04 22:45:16 bastion sshd[9101]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42  user=developer
+Oct 04 22:45:16 bastion sshd[9101]: Failed password for developer from 198.51.100.42 port 45101 ssh2
+Oct 04 22:45:19 bastion sshd[9102]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42  user=developer
+Oct 04 22:45:19 bastion sshd[9102]: Failed password for developer from 198.51.100.42 port 45102 ssh2
+Oct 04 22:45:22 bastion sshd[9103]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42  user=developer
+Oct 04 22:45:22 bastion sshd[9103]: Failed password for developer from 198.51.100.42 port 45103 ssh2
+Oct 04 22:45:25 bastion sshd[9104]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42  user=developer
+Oct 04 22:45:25 bastion sshd[9104]: Failed password for developer from 198.51.100.42 port 45104 ssh2
+Oct 04 22:45:37 bastion sshd[9120]: Accepted password for developer from 198.51.100.42 port 45115 ssh2
+Oct 04 22:45:37 bastion sshd[9120]: pam_unix(sshd:session): session opened for user developer by (uid=0)
+Oct 04 22:45:37 bastion systemd-logind[780]: New session 142 of user developer.
+Oct 04 22:46:22 bastion sudo: developer : TTY=pts/2 ; PWD=/home/developer ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Oct 04 22:46:22 bastion sudo: pam_unix(sudo:session): session opened for user root by developer(uid=1001)
+Oct 04 22:46:22 bastion sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 22:46:42 bastion sudo: developer : TTY=pts/2 ; PWD=/home/developer ; USER=root ; COMMAND=/bin/bash
+Oct 04 22:46:42 bastion sudo: pam_unix(sudo:session): session opened for user root by developer(uid=1001)
+Oct 04 22:46:57 bastion useradd[9180]: new group: name=backdoor_admin, GID=1005
+Oct 04 22:46:57 bastion useradd[9180]: new user: name=backdoor_admin, UID=1005, GID=1005, home=/home/backdoor_admin, shell=/bin/bash, from=/dev/pts/2
+Oct 04 22:46:57 bastion usermod[9185]: add 'backdoor_admin' to group 'sudo'
+Oct 04 22:48:56 bastion sshd[2038]: Accepted publickey for alice from 10.0.10.15 port 48955 ssh2: RSA SHA256:m0k8Vn1+GZ7
+Oct 04 22:48:56 bastion sshd[2038]: pam_unix(sshd:session): session opened for user alice by (uid=0)

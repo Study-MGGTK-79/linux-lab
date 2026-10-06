@@ -1,0 +1,23 @@
+# /etc/fstab: static file system information.
+# <file system>                             <mount point>             <type>          <options>                               <dump>  <pass>
+# Root filesystem
+UUID=11111111-2222-3333-4444-555555555555  /                         ext4            errors=remount-ro                       0       1
+
+# EFI System Partition
+UUID=AAAA-BBBB                              /boot/efi                 vfat            umask=0077                              0       2
+
+# ОШИБКА 1: Опечатка в UUID несуществующего диска без опции 'nofail'
+# В production приводит к зависанию загрузки на 90 секунд и вызову dracut emergency shell!
+UUID=deadbeef-0000-0000-0000-badc0ffee000  /data/analytics           ext4            defaults                                0       2
+
+# ОШИБКА 2: Опечатка в типе файловой системы (указано 'ext44' вместо 'ext4')
+UUID=22222222-3333-4444-5555-666666666666  /var/log/audit            ext44           defaults,noatime                        0       2
+
+# ОШИБКА 3: Пропущено 6-е поле (pass). Строка содержит только 5 колонок, синтаксический сбой fstab
+UUID=33333333-4444-5555-6666-777777777777  /mnt/shared_storage       xfs             defaults,nodev,nosuid                   0
+
+# ОШИБКА 4: Точка монтирования указывает на несуществующий путь в файловой системе
+UUID=44444444-5555-6666-7777-888888888888  /nonexistent/backup_repo  ext4            defaults                                0       2
+
+# ОШИБКА 5: Сетевая файловая система без флага '_netdev' или 'nofail'
+192.168.1.100:/exports/nfs                 /mnt/nfs_share            nfs             defaults                                0       0

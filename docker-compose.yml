@@ -1,0 +1,15 @@
+services:
+  linux-lab:
+    build: .
+    container_name: linux-admin-lab
+    privileged: true
+    volumes:
+      - .:/course
+    working_dir: /course
+    stdin_open: true
+    tty: true
+    cap_add:
+      - SYS_ADMIN
+      - NET_ADMIN
+    security_opt:
+      - apparmor:unconfined

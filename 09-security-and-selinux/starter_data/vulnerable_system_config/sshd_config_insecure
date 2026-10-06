@@ -1,0 +1,25 @@
+# /etc/ssh/sshd_config.d/insecure.conf
+# ТЕСТОВАЯ УЯЗВИМАЯ КОНФИГУРАЦИЯ SSH (Критические несоответствия CIS Benchmark)
+
+# КРИТИЧНО: Разрешен вход root напрямую по SSH (CIS 5.2.10)
+PermitRootLogin yes
+
+# КРИТИЧНО: Разрешена аутентификация по паролям (CIS 5.2.11)
+PasswordAuthentication yes
+
+# КРИТИЧНО: Разрешен вход без пароля для пустых учетных записей (CIS 5.2.9)
+PermitEmptyPasswords yes
+
+# ОШИБКА: Огромное количество попыток подбора до разрыва соединения (CIS 5.2.7)
+MaxAuthTries 10
+
+# ОШИБКА: Проброс графической подсистемы X11 включен (CIS 5.2.6)
+X11Forwarding yes
+
+# ОШИБКА: Игнорирование прав на ~/.rhosts и ~/.shosts
+IgnoreRhosts no
+
+# ОШИБКА: Большое время ожидания логина (CIS 5.2.19)
+LoginGraceTime 300
+
+# Отсутствует белый список пользователей (AllowUsers / AllowGroups)

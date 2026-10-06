@@ -1,0 +1,26 @@
+# /etc/ssh/sshd_config.d/sshd_config_hardened
+# Защищенная конфигурация SSH по стандартам CIS Benchmark Level 1/2
+
+# Запрет входа суперпользователя напрямую (CIS 5.2.10)
+PermitRootLogin no
+
+# Вход исключительно по криптографическим SSH-ключам (CIS 5.2.11)
+PasswordAuthentication no
+
+# Запрет пустых паролей (CIS 5.2.9)
+PermitEmptyPasswords no
+
+# Разрыв сессии после 3 неудачных попыток (CIS 5.2.7)
+MaxAuthTries 3
+
+# Отключение проброса графического интерфейса (CIS 5.2.6)
+X11Forwarding no
+
+# Игнорировать небезопасные файлы .rhosts
+IgnoreRhosts yes
+
+# Ограничение времени ожидания авторизации
+LoginGraceTime 60
+
+# Белый список учетных записей (пример)
+# AllowUsers admin sysadmin deployer

@@ -1,0 +1,16 @@
+id,name,department,salary,hire_date,email
+101,Ivan Ivanov,Engineering,280000,2022-03-15,i.ivanov@corp.local
+102,Elena Petrova,DevOps,320000,2021-06-01,e.petrova@corp.local
+103,Alexey Sidorov,Security,350000,2020-01-10,a.sidorov@corp.local
+104,Maria Smirnova,HR,180000,2023-04-12,m.smirnova@corp.local
+105,Dmitry Kozlov,Engineering,250000,2023-08-20,d.kozlov@corp.local
+106,Anna Morozova,Finance,220000,2022-11-05,a.morozova@corp.local
+107,Sergey Volkov,DevOps,310000,2022-09-17,s.volkov@corp.local
+108,Olga Vasilyeva,Engineering,290000,2021-02-14,o.vasilyeva@corp.local
+109,Maxim Fedorov,Security,330000,2023-01-25,m.fedorov@corp.local
+110,Ekaterina Popova,Marketing,195000,2023-10-01,e.popova@corp.local
+111,Pavel Sokolov,Engineering,275000,2024-02-10,p.sokolov@corp.local
+112,Tatiana Mikhailova,HR,175000,2022-05-19,t.mikhailova@corp.local
+113,Igor Novikov,Finance,240000,2021-08-30,i.novikov@corp.local
+114,Ksenia Lebedeva,DevOps,305000,2023-11-15,k.lebedeva@corp.local
+115,Roman Semenov,Engineering,260000,2024-05-02,r.semenov@corp.local

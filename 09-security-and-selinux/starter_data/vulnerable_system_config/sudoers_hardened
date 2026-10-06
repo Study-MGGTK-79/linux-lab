@@ -1,0 +1,25 @@
+# /etc/sudoers.d/sudoers_hardened - ЭТАЛОННАЯ ЗАЩИЩЕННАЯ КОНФИГУРАЦИЯ (PoLP)
+# Все опасные интерактивные утилиты и wildcard заменены на строгие команды
+
+Defaults    env_reset
+Defaults    mail_badpass
+Defaults    secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
+# Администраторы
+%admin ALL=(ALL) ALL
+%sudo  ALL=(ALL:ALL) ALL
+
+# 1. Вместо find с NOPASSWD даем строго безопасные утилиты поиска без выполнения команд
+developer ALL=(root) /usr/bin/ls -la /var/log/app/
+
+# 2. Вместо vim даем строго просмотр логов без интерактивного режима шелла
+intern    ALL=(root) /usr/bin/tail -n 100 /var/log/nginx/access.log, /usr/bin/tail -n 100 /var/log/nginx/error.log
+
+# 3. Вместо less используем cat или grep
+support   ALL=(root) /usr/bin/grep -i * /var/log/nginx/error.log
+
+# 4. Вместо awk убираем NOPASSWD либо ограничиваем конкретным скриптом
+operator  ALL=(root) /usr/local/bin/calc_metrics.sh
+
+# 5. Скрипт бэкапа строго без произвольных аргументов wildcard
+backup_service ALL=(root) NOPASSWD: /opt/scripts/backup.sh --daily

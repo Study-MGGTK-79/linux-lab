@@ -1,0 +1,246 @@
+Oct 04 19:00:05 srv-fintech-gw01 sshd[1100]: Accepted publickey for sysadmin from 10.0.10.15 port 44342 ssh2: RSA SHA256:4kM9+v8z1N
+Oct 04 19:00:05 srv-fintech-gw01 sshd[1100]: pam_unix(sshd:session): session opened for user sysadmin by (uid=0)
+Oct 04 19:00:05 srv-fintech-gw01 sudo: sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 19:00:05 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by sysadmin(uid=1000)
+Oct 04 19:00:05 srv-fintech-gw01 sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 19:14:41 srv-fintech-gw01 sshd[1101]: Accepted publickey for bob from 10.0.10.15 port 48248 ssh2: RSA SHA256:4kM9+v8z1N
+Oct 04 19:14:41 srv-fintech-gw01 sshd[1101]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 04 19:14:41 srv-fintech-gw01 sudo: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 19:14:41 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1000)
+Oct 04 19:14:41 srv-fintech-gw01 sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 19:28:14 srv-fintech-gw01 sshd[1102]: Accepted publickey for sysadmin from 10.0.10.15 port 48702 ssh2: RSA SHA256:4kM9+v8z1N
+Oct 04 19:28:14 srv-fintech-gw01 sshd[1102]: pam_unix(sshd:session): session opened for user sysadmin by (uid=0)
+Oct 04 19:28:14 srv-fintech-gw01 sudo: sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 19:28:14 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by sysadmin(uid=1000)
+Oct 04 19:28:14 srv-fintech-gw01 sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 19:42:48 srv-fintech-gw01 sshd[1103]: Accepted publickey for alice from 10.0.10.15 port 42544 ssh2: RSA SHA256:4kM9+v8z1N
+Oct 04 19:42:48 srv-fintech-gw01 sshd[1103]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 04 19:42:48 srv-fintech-gw01 sudo: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 19:42:48 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1000)
+Oct 04 19:42:48 srv-fintech-gw01 sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 19:56:40 srv-fintech-gw01 sshd[1104]: Accepted publickey for alice from 10.0.10.15 port 41591 ssh2: RSA SHA256:4kM9+v8z1N
+Oct 04 19:56:40 srv-fintech-gw01 sshd[1104]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 04 19:56:40 srv-fintech-gw01 sudo: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 19:56:40 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1000)
+Oct 04 19:56:40 srv-fintech-gw01 sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 20:10:25 srv-fintech-gw01 sshd[1105]: Accepted publickey for bob from 10.0.10.15 port 49349 ssh2: RSA SHA256:4kM9+v8z1N
+Oct 04 20:10:25 srv-fintech-gw01 sshd[1105]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 04 20:10:25 srv-fintech-gw01 sudo: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 20:10:25 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1000)
+Oct 04 20:10:25 srv-fintech-gw01 sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 20:24:11 srv-fintech-gw01 sshd[1106]: Accepted publickey for alice from 10.0.10.15 port 43625 ssh2: RSA SHA256:4kM9+v8z1N
+Oct 04 20:24:11 srv-fintech-gw01 sshd[1106]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 04 20:24:11 srv-fintech-gw01 sudo: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 20:24:11 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1000)
+Oct 04 20:24:11 srv-fintech-gw01 sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 20:38:18 srv-fintech-gw01 sshd[1107]: Accepted publickey for alice from 10.0.10.15 port 45822 ssh2: RSA SHA256:4kM9+v8z1N
+Oct 04 20:38:18 srv-fintech-gw01 sshd[1107]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 04 20:38:18 srv-fintech-gw01 sudo: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 20:38:18 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1000)
+Oct 04 20:38:18 srv-fintech-gw01 sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 20:52:33 srv-fintech-gw01 sshd[1108]: Accepted publickey for bob from 10.0.10.15 port 41032 ssh2: RSA SHA256:4kM9+v8z1N
+Oct 04 20:52:33 srv-fintech-gw01 sshd[1108]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 04 20:52:33 srv-fintech-gw01 sudo: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 20:52:33 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1000)
+Oct 04 20:52:33 srv-fintech-gw01 sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 21:06:44 srv-fintech-gw01 sshd[1109]: Accepted publickey for alice from 10.0.10.15 port 46837 ssh2: RSA SHA256:4kM9+v8z1N
+Oct 04 21:06:44 srv-fintech-gw01 sshd[1109]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 04 21:06:44 srv-fintech-gw01 sudo: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 21:06:44 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1000)
+Oct 04 21:06:44 srv-fintech-gw01 sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 21:20:22 srv-fintech-gw01 sshd[1110]: Accepted publickey for sysadmin from 10.0.10.15 port 46268 ssh2: RSA SHA256:4kM9+v8z1N
+Oct 04 21:20:22 srv-fintech-gw01 sshd[1110]: pam_unix(sshd:session): session opened for user sysadmin by (uid=0)
+Oct 04 21:20:22 srv-fintech-gw01 sudo: sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 21:20:22 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by sysadmin(uid=1000)
+Oct 04 21:20:22 srv-fintech-gw01 sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 21:34:13 srv-fintech-gw01 sshd[1111]: Accepted publickey for bob from 10.0.10.15 port 49873 ssh2: RSA SHA256:4kM9+v8z1N
+Oct 04 21:34:13 srv-fintech-gw01 sshd[1111]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 04 21:34:13 srv-fintech-gw01 sudo: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 21:34:13 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1000)
+Oct 04 21:34:13 srv-fintech-gw01 sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 21:48:24 srv-fintech-gw01 sshd[1112]: Accepted publickey for bob from 10.0.10.15 port 40211 ssh2: RSA SHA256:4kM9+v8z1N
+Oct 04 21:48:24 srv-fintech-gw01 sshd[1112]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 04 21:48:24 srv-fintech-gw01 sudo: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 21:48:24 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1000)
+Oct 04 21:48:24 srv-fintech-gw01 sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 22:02:09 srv-fintech-gw01 sshd[1113]: Accepted publickey for bob from 10.0.10.15 port 41074 ssh2: RSA SHA256:4kM9+v8z1N
+Oct 04 22:02:09 srv-fintech-gw01 sshd[1113]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 04 22:02:09 srv-fintech-gw01 sudo: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 22:02:09 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1000)
+Oct 04 22:02:09 srv-fintech-gw01 sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 22:10:01 srv-fintech-gw01 sshd[3400]: Invalid user postgres from 198.51.100.42 port 47031
+Oct 04 22:10:01 srv-fintech-gw01 sshd[3400]: Failed password for invalid user postgres from 198.51.100.42 port 47031 ssh2
+Oct 04 22:10:04 srv-fintech-gw01 sshd[3401]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=admin
+Oct 04 22:10:04 srv-fintech-gw01 sshd[3401]: Failed password for admin from 198.51.100.42 port 50554 ssh2
+Oct 04 22:10:07 srv-fintech-gw01 sshd[3402]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=svc_backup
+Oct 04 22:10:07 srv-fintech-gw01 sshd[3402]: Failed password for svc_backup from 198.51.100.42 port 48713 ssh2
+Oct 04 22:10:09 srv-fintech-gw01 sshd[3403]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=ubuntu
+Oct 04 22:10:09 srv-fintech-gw01 sshd[3403]: Failed password for ubuntu from 198.51.100.42 port 40541 ssh2
+Oct 04 22:10:10 srv-fintech-gw01 sshd[3404]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=root
+Oct 04 22:10:10 srv-fintech-gw01 sshd[3404]: Failed password for root from 198.51.100.42 port 50234 ssh2
+Oct 04 22:10:12 srv-fintech-gw01 sshd[3405]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=operator
+Oct 04 22:10:12 srv-fintech-gw01 sshd[3405]: Failed password for operator from 198.51.100.42 port 56585 ssh2
+Oct 04 22:10:14 srv-fintech-gw01 sshd[3406]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=operator
+Oct 04 22:10:14 srv-fintech-gw01 sshd[3406]: Failed password for operator from 198.51.100.42 port 45239 ssh2
+Oct 04 22:10:16 srv-fintech-gw01 sshd[3407]: Invalid user postgres from 198.51.100.42 port 60184
+Oct 04 22:10:16 srv-fintech-gw01 sshd[3407]: Failed password for invalid user postgres from 198.51.100.42 port 60184 ssh2
+Oct 04 22:10:19 srv-fintech-gw01 sshd[3408]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=guest
+Oct 04 22:10:19 srv-fintech-gw01 sshd[3408]: Failed password for guest from 198.51.100.42 port 47422 ssh2
+Oct 04 22:10:22 srv-fintech-gw01 sshd[3409]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=root
+Oct 04 22:10:22 srv-fintech-gw01 sshd[3409]: Failed password for root from 198.51.100.42 port 60445 ssh2
+Oct 04 22:10:25 srv-fintech-gw01 sshd[3410]: Invalid user postgres from 198.51.100.42 port 60302
+Oct 04 22:10:25 srv-fintech-gw01 sshd[3410]: Failed password for invalid user postgres from 198.51.100.42 port 60302 ssh2
+Oct 04 22:10:28 srv-fintech-gw01 sshd[3411]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=admin
+Oct 04 22:10:28 srv-fintech-gw01 sshd[3411]: Failed password for admin from 198.51.100.42 port 36563 ssh2
+Oct 04 22:10:31 srv-fintech-gw01 sshd[3412]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=svc_backup
+Oct 04 22:10:31 srv-fintech-gw01 sshd[3412]: Failed password for svc_backup from 198.51.100.42 port 58100 ssh2
+Oct 04 22:10:33 srv-fintech-gw01 sshd[3413]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=guest
+Oct 04 22:10:33 srv-fintech-gw01 sshd[3413]: Failed password for guest from 198.51.100.42 port 40752 ssh2
+Oct 04 22:10:34 srv-fintech-gw01 sshd[3414]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=admin
+Oct 04 22:10:34 srv-fintech-gw01 sshd[3414]: Failed password for admin from 198.51.100.42 port 53760 ssh2
+Oct 04 22:10:37 srv-fintech-gw01 sshd[3415]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=ubuntu
+Oct 04 22:10:37 srv-fintech-gw01 sshd[3415]: Failed password for ubuntu from 198.51.100.42 port 36240 ssh2
+Oct 04 22:10:40 srv-fintech-gw01 sshd[3416]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=test
+Oct 04 22:10:40 srv-fintech-gw01 sshd[3416]: Failed password for test from 198.51.100.42 port 48057 ssh2
+Oct 04 22:10:43 srv-fintech-gw01 sshd[3417]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=operator
+Oct 04 22:10:43 srv-fintech-gw01 sshd[3417]: Failed password for operator from 198.51.100.42 port 60797 ssh2
+Oct 04 22:10:44 srv-fintech-gw01 sshd[3418]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=operator
+Oct 04 22:10:44 srv-fintech-gw01 sshd[3418]: Failed password for operator from 198.51.100.42 port 53924 ssh2
+Oct 04 22:10:46 srv-fintech-gw01 sshd[3419]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=svc_backup
+Oct 04 22:10:46 srv-fintech-gw01 sshd[3419]: Failed password for svc_backup from 198.51.100.42 port 55036 ssh2
+Oct 04 22:10:48 srv-fintech-gw01 sshd[3420]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=admin
+Oct 04 22:10:48 srv-fintech-gw01 sshd[3420]: Failed password for admin from 198.51.100.42 port 53525 ssh2
+Oct 04 22:10:51 srv-fintech-gw01 sshd[3421]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=test
+Oct 04 22:10:51 srv-fintech-gw01 sshd[3421]: Failed password for test from 198.51.100.42 port 39535 ssh2
+Oct 04 22:10:53 srv-fintech-gw01 sshd[3422]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=operator
+Oct 04 22:10:53 srv-fintech-gw01 sshd[3422]: Failed password for operator from 198.51.100.42 port 55781 ssh2
+Oct 04 22:10:55 srv-fintech-gw01 sshd[3423]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=svc_backup
+Oct 04 22:10:55 srv-fintech-gw01 sshd[3423]: Failed password for svc_backup from 198.51.100.42 port 49992 ssh2
+Oct 04 22:10:58 srv-fintech-gw01 sshd[3424]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=root
+Oct 04 22:10:58 srv-fintech-gw01 sshd[3424]: Failed password for root from 198.51.100.42 port 38750 ssh2
+Oct 04 22:10:59 srv-fintech-gw01 sshd[3425]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=test
+Oct 04 22:10:59 srv-fintech-gw01 sshd[3425]: Failed password for test from 198.51.100.42 port 52271 ssh2
+Oct 04 22:11:00 srv-fintech-gw01 sshd[3426]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=root
+Oct 04 22:11:00 srv-fintech-gw01 sshd[3426]: Failed password for root from 198.51.100.42 port 43333 ssh2
+Oct 04 22:11:03 srv-fintech-gw01 sshd[3427]: Invalid user postgres from 198.51.100.42 port 52065
+Oct 04 22:11:03 srv-fintech-gw01 sshd[3427]: Failed password for invalid user postgres from 198.51.100.42 port 52065 ssh2
+Oct 04 22:11:05 srv-fintech-gw01 sshd[3428]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=root
+Oct 04 22:11:05 srv-fintech-gw01 sshd[3428]: Failed password for root from 198.51.100.42 port 41465 ssh2
+Oct 04 22:11:08 srv-fintech-gw01 sshd[3429]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=svc_backup
+Oct 04 22:11:08 srv-fintech-gw01 sshd[3429]: Failed password for svc_backup from 198.51.100.42 port 55638 ssh2
+Oct 04 22:11:10 srv-fintech-gw01 sshd[3430]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=operator
+Oct 04 22:11:10 srv-fintech-gw01 sshd[3430]: Failed password for operator from 198.51.100.42 port 48749 ssh2
+Oct 04 22:11:12 srv-fintech-gw01 sshd[3431]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=svc_backup
+Oct 04 22:11:12 srv-fintech-gw01 sshd[3431]: Failed password for svc_backup from 198.51.100.42 port 51069 ssh2
+Oct 04 22:11:15 srv-fintech-gw01 sshd[3432]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=svc_backup
+Oct 04 22:11:15 srv-fintech-gw01 sshd[3432]: Failed password for svc_backup from 198.51.100.42 port 61710 ssh2
+Oct 04 22:11:17 srv-fintech-gw01 sshd[3433]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=admin
+Oct 04 22:11:17 srv-fintech-gw01 sshd[3433]: Failed password for admin from 198.51.100.42 port 48494 ssh2
+Oct 04 22:11:20 srv-fintech-gw01 sshd[3434]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=admin
+Oct 04 22:11:20 srv-fintech-gw01 sshd[3434]: Failed password for admin from 198.51.100.42 port 57912 ssh2
+Oct 04 22:11:23 srv-fintech-gw01 sshd[3435]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=root
+Oct 04 22:11:23 srv-fintech-gw01 sshd[3435]: Failed password for root from 198.51.100.42 port 56245 ssh2
+Oct 04 22:11:26 srv-fintech-gw01 sshd[3436]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=operator
+Oct 04 22:11:26 srv-fintech-gw01 sshd[3436]: Failed password for operator from 198.51.100.42 port 37249 ssh2
+Oct 04 22:11:29 srv-fintech-gw01 sshd[3437]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=operator
+Oct 04 22:11:29 srv-fintech-gw01 sshd[3437]: Failed password for operator from 198.51.100.42 port 51904 ssh2
+Oct 04 22:11:31 srv-fintech-gw01 sshd[3438]: Invalid user postgres from 198.51.100.42 port 37361
+Oct 04 22:11:31 srv-fintech-gw01 sshd[3438]: Failed password for invalid user postgres from 198.51.100.42 port 37361 ssh2
+Oct 04 22:11:32 srv-fintech-gw01 sshd[3439]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=operator
+Oct 04 22:11:32 srv-fintech-gw01 sshd[3439]: Failed password for operator from 198.51.100.42 port 36338 ssh2
+Oct 04 22:11:35 srv-fintech-gw01 sshd[3440]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=operator
+Oct 04 22:11:35 srv-fintech-gw01 sshd[3440]: Failed password for operator from 198.51.100.42 port 42397 ssh2
+Oct 04 22:11:38 srv-fintech-gw01 sshd[3441]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=svc_backup
+Oct 04 22:11:38 srv-fintech-gw01 sshd[3441]: Failed password for svc_backup from 198.51.100.42 port 46449 ssh2
+Oct 04 22:11:40 srv-fintech-gw01 sshd[3442]: Invalid user postgres from 198.51.100.42 port 48323
+Oct 04 22:11:40 srv-fintech-gw01 sshd[3442]: Failed password for invalid user postgres from 198.51.100.42 port 48323 ssh2
+Oct 04 22:11:43 srv-fintech-gw01 sshd[3443]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=test
+Oct 04 22:11:43 srv-fintech-gw01 sshd[3443]: Failed password for test from 198.51.100.42 port 44464 ssh2
+Oct 04 22:11:45 srv-fintech-gw01 sshd[3444]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=admin
+Oct 04 22:11:45 srv-fintech-gw01 sshd[3444]: Failed password for admin from 198.51.100.42 port 38382 ssh2
+Oct 04 22:11:48 srv-fintech-gw01 sshd[3445]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=test
+Oct 04 22:11:48 srv-fintech-gw01 sshd[3445]: Failed password for test from 198.51.100.42 port 44081 ssh2
+Oct 04 22:11:51 srv-fintech-gw01 sshd[3446]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=svc_backup
+Oct 04 22:11:51 srv-fintech-gw01 sshd[3446]: Failed password for svc_backup from 198.51.100.42 port 44437 ssh2
+Oct 04 22:11:54 srv-fintech-gw01 sshd[3447]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=admin
+Oct 04 22:11:54 srv-fintech-gw01 sshd[3447]: Failed password for admin from 198.51.100.42 port 57079 ssh2
+Oct 04 22:11:57 srv-fintech-gw01 sshd[3448]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=svc_backup
+Oct 04 22:11:57 srv-fintech-gw01 sshd[3448]: Failed password for svc_backup from 198.51.100.42 port 48255 ssh2
+Oct 04 22:12:00 srv-fintech-gw01 sshd[3449]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=admin
+Oct 04 22:12:00 srv-fintech-gw01 sshd[3449]: Failed password for admin from 198.51.100.42 port 56531 ssh2
+Oct 04 22:12:03 srv-fintech-gw01 sshd[3450]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=test
+Oct 04 22:12:03 srv-fintech-gw01 sshd[3450]: Failed password for test from 198.51.100.42 port 49071 ssh2
+Oct 04 22:12:06 srv-fintech-gw01 sshd[3451]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=admin
+Oct 04 22:12:06 srv-fintech-gw01 sshd[3451]: Failed password for admin from 198.51.100.42 port 36346 ssh2
+Oct 04 22:12:09 srv-fintech-gw01 sshd[3452]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=operator
+Oct 04 22:12:09 srv-fintech-gw01 sshd[3452]: Failed password for operator from 198.51.100.42 port 57214 ssh2
+Oct 04 22:12:10 srv-fintech-gw01 sshd[3453]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=guest
+Oct 04 22:12:10 srv-fintech-gw01 sshd[3453]: Failed password for guest from 198.51.100.42 port 36190 ssh2
+Oct 04 22:12:11 srv-fintech-gw01 sshd[3454]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=ubuntu
+Oct 04 22:12:11 srv-fintech-gw01 sshd[3454]: Failed password for ubuntu from 198.51.100.42 port 50131 ssh2
+Oct 04 22:12:14 srv-fintech-gw01 sshd[3455]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=svc_backup
+Oct 04 22:12:14 srv-fintech-gw01 sshd[3455]: Failed password for svc_backup from 198.51.100.42 port 45304 ssh2
+Oct 04 22:12:17 srv-fintech-gw01 sshd[3456]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=ubuntu
+Oct 04 22:12:17 srv-fintech-gw01 sshd[3456]: Failed password for ubuntu from 198.51.100.42 port 42008 ssh2
+Oct 04 22:12:20 srv-fintech-gw01 sshd[3457]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=svc_backup
+Oct 04 22:12:20 srv-fintech-gw01 sshd[3457]: Failed password for svc_backup from 198.51.100.42 port 39261 ssh2
+Oct 04 22:12:21 srv-fintech-gw01 sshd[3458]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=operator
+Oct 04 22:12:21 srv-fintech-gw01 sshd[3458]: Failed password for operator from 198.51.100.42 port 41126 ssh2
+Oct 04 22:12:24 srv-fintech-gw01 sshd[3459]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=guest
+Oct 04 22:12:24 srv-fintech-gw01 sshd[3459]: Failed password for guest from 198.51.100.42 port 44982 ssh2
+Oct 04 22:12:25 srv-fintech-gw01 sshd[3460]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=root
+Oct 04 22:12:25 srv-fintech-gw01 sshd[3460]: Failed password for root from 198.51.100.42 port 51811 ssh2
+Oct 04 22:12:26 srv-fintech-gw01 sshd[3461]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=guest
+Oct 04 22:12:26 srv-fintech-gw01 sshd[3461]: Failed password for guest from 198.51.100.42 port 60111 ssh2
+Oct 04 22:12:28 srv-fintech-gw01 sshd[3462]: Invalid user postgres from 198.51.100.42 port 43983
+Oct 04 22:12:28 srv-fintech-gw01 sshd[3462]: Failed password for invalid user postgres from 198.51.100.42 port 43983 ssh2
+Oct 04 22:12:30 srv-fintech-gw01 sshd[3463]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=test
+Oct 04 22:12:30 srv-fintech-gw01 sshd[3463]: Failed password for test from 198.51.100.42 port 36805 ssh2
+Oct 04 22:12:33 srv-fintech-gw01 sshd[3464]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=test
+Oct 04 22:12:33 srv-fintech-gw01 sshd[3464]: Failed password for test from 198.51.100.42 port 42276 ssh2
+Oct 04 22:12:35 srv-fintech-gw01 sshd[3465]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=admin
+Oct 04 22:12:35 srv-fintech-gw01 sshd[3465]: Failed password for admin from 198.51.100.42 port 44400 ssh2
+Oct 04 22:12:36 srv-fintech-gw01 sshd[3466]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=admin
+Oct 04 22:12:36 srv-fintech-gw01 sshd[3466]: Failed password for admin from 198.51.100.42 port 56700 ssh2
+Oct 04 22:12:37 srv-fintech-gw01 sshd[3467]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=ubuntu
+Oct 04 22:12:37 srv-fintech-gw01 sshd[3467]: Failed password for ubuntu from 198.51.100.42 port 47167 ssh2
+Oct 04 22:12:38 srv-fintech-gw01 sshd[3468]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=test
+Oct 04 22:12:38 srv-fintech-gw01 sshd[3468]: Failed password for test from 198.51.100.42 port 41029 ssh2
+Oct 04 22:12:41 srv-fintech-gw01 sshd[3469]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=svc_backup
+Oct 04 22:12:41 srv-fintech-gw01 sshd[3469]: Failed password for svc_backup from 198.51.100.42 port 53160 ssh2
+Oct 04 22:12:44 srv-fintech-gw01 sshd[3470]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=operator
+Oct 04 22:12:44 srv-fintech-gw01 sshd[3470]: Failed password for operator from 198.51.100.42 port 44735 ssh2
+Oct 04 22:12:45 srv-fintech-gw01 sshd[3471]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=test
+Oct 04 22:12:45 srv-fintech-gw01 sshd[3471]: Failed password for test from 198.51.100.42 port 59694 ssh2
+Oct 04 22:12:47 srv-fintech-gw01 sshd[3472]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=svc_backup
+Oct 04 22:12:47 srv-fintech-gw01 sshd[3472]: Failed password for svc_backup from 198.51.100.42 port 56923 ssh2
+Oct 04 22:12:49 srv-fintech-gw01 sshd[3473]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=svc_backup
+Oct 04 22:12:49 srv-fintech-gw01 sshd[3473]: Failed password for svc_backup from 198.51.100.42 port 42773 ssh2
+Oct 04 22:12:52 srv-fintech-gw01 sshd[3474]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=operator
+Oct 04 22:12:52 srv-fintech-gw01 sshd[3474]: Failed password for operator from 198.51.100.42 port 46353 ssh2
+Oct 04 22:12:54 srv-fintech-gw01 sshd[3475]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=operator
+Oct 04 22:12:54 srv-fintech-gw01 sshd[3475]: Failed password for operator from 198.51.100.42 port 53056 ssh2
+Oct 04 22:12:56 srv-fintech-gw01 sshd[3476]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=admin
+Oct 04 22:12:56 srv-fintech-gw01 sshd[3476]: Failed password for admin from 198.51.100.42 port 47545 ssh2
+Oct 04 22:12:58 srv-fintech-gw01 sshd[3477]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=root
+Oct 04 22:12:58 srv-fintech-gw01 sshd[3477]: Failed password for root from 198.51.100.42 port 60736 ssh2
+Oct 04 22:12:59 srv-fintech-gw01 sshd[3478]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=test
+Oct 04 22:12:59 srv-fintech-gw01 sshd[3478]: Failed password for test from 198.51.100.42 port 48401 ssh2
+Oct 04 22:13:00 srv-fintech-gw01 sshd[3479]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.42 user=guest
+Oct 04 22:13:00 srv-fintech-gw01 sshd[3479]: Failed password for guest from 198.51.100.42 port 51331 ssh2
+Oct 04 22:13:14 srv-fintech-gw01 sshd[4120]: Accepted password for svc_backup from 198.51.100.42 port 49152 ssh2
+Oct 04 22:13:14 srv-fintech-gw01 sshd[4120]: pam_unix(sshd:session): session opened for user svc_backup by (uid=0)
+Oct 04 22:13:14 srv-fintech-gw01 systemd-logind[612]: New session 42 of user svc_backup.
+Oct 04 22:13:42 srv-fintech-gw01 sudo: svc_backup : TTY=pts/2 ; PWD=/home/svc_backup ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Oct 04 22:13:42 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by svc_backup(uid=1002)
+Oct 04 22:13:42 srv-fintech-gw01 sudo: pam_unix(sudo:session): session closed for user root
+Oct 04 22:14:01 srv-fintech-gw01 sudo: svc_backup : TTY=pts/2 ; PWD=/home/svc_backup ; USER=root ; COMMAND=/bin/bash
+Oct 04 22:14:01 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by svc_backup(uid=1002)
+Oct 04 22:14:36 srv-fintech-gw01 useradd[4890]: new group: name=backdoor_admin, GID=1008
+Oct 04 22:14:36 srv-fintech-gw01 useradd[4890]: new user: name=backdoor_admin, UID=1008, GID=1008, home=/home/backdoor_admin, shell=/bin/bash, from=/dev/pts/2
+Oct 04 22:14:36 srv-fintech-gw01 usermod[4895]: add 'backdoor_admin' to group 'sudo'
+Oct 04 22:16:09 srv-fintech-gw01 sshd[1114]: Accepted publickey for alice from 10.0.10.15 port 43588 ssh2: RSA SHA256:4kM9+v8z1N
+Oct 04 22:16:09 srv-fintech-gw01 sshd[1114]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 04 22:16:09 srv-fintech-gw01 sudo: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 22:16:09 srv-fintech-gw01 sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1000)
+Oct 04 22:16:09 srv-fintech-gw01 sudo: pam_unix(sudo:session): session closed for user root

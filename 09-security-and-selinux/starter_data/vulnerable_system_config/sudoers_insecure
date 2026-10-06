@@ -1,0 +1,28 @@
+# /etc/sudoers.d/insecure_rules - ТЕСТОВАЯ УЯЗВИМАЯ КОНФИГУРАЦИЯ ДЛЯ АУДИТА
+# ВНИМАНИЕ: Содержит критические нарушения Принципа наименьших привилегий (PoLP)
+# и векторы эскалации привилегий через GTFOBins!
+
+# Настройки по умолчанию
+Defaults    env_reset
+Defaults    mail_badpass
+Defaults    secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
+# 1. Административная группа
+%admin ALL=(ALL) ALL
+%sudo  ALL=(ALL:ALL) ALL
+
+# 2. Правила для разработчиков и стажеров (КРИТИЧЕСКИЕ УЯЗВИМОСТИ):
+# Уязвимость 1: Разрешение утилиты find с NOPASSWD позволяет выполнить 'find . -exec /bin/sh \;'
+developer ALL=(ALL) NOPASSWD: /usr/bin/find
+
+# Уязвимость 2: Интерактивный редактор vim позволяет выполнить ':!/bin/sh'
+intern    ALL=(ALL) NOPASSWD: /usr/bin/vim /var/log/nginx/*
+
+# Уязвимость 3: Пейджер less позволяет выполнить '!/bin/sh' прямо из режима просмотра
+support   ALL=(ALL) NOPASSWD: /usr/bin/less /var/log/*
+
+# Уязвимость 4: Интерпретатор awk позволяет выполнить системную команду 'awk "BEGIN {system(\"/bin/sh\")}"'
+operator  ALL=(ALL) NOPASSWD: /usr/bin/awk
+
+# Уязвимость 5: Запуск скрипта бэкапа с подменой окружения или перезаписью
+backup_service ALL=(root) NOPASSWD: /opt/scripts/backup.sh *

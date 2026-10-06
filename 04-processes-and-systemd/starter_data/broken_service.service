@@ -1,0 +1,34 @@
+# ==============================================================================
+# BROKEN SYSTEMD SERVICE TEMPLATE (broken_service.service)
+# Содержит 5 типовых грубых ошибок конфигурации, с которыми сталкиваются
+# junior devops и разработчики в продакшене.
+# ==============================================================================
+
+[Unit]
+Description=Enterprise Mock Application Service (Broken)
+After=network.target
+
+[Service]
+# ОШИБКА 1: Относительный путь к интерпретатору!
+# Systemd строго требует абсолютных путей во всех директивах ExecStart/ExecStop.
+# При запуске выдаст: 'Executable path is not absolute'
+ExecStart=python3 /opt/mock_daemon/mock_daemon.py --crash-on-start
+
+# ОШИБКА 2: Неверный тип службы. Указан Type=forking без PIDFile,
+# хотя Python-скрипт работает в foreground режиме (Type=simple).
+Type=forking
+
+# ОШИБКА 3: Служба запускается от суперпользователя (root) по умолчанию,
+# нарушая принцип наименьших привилегий (Principle of Least Privilege).
+# Отсутствуют директивы User= и Group=.
+
+# ОШИБКА 4: Restart=always без указания задержки RestartSec= приводит к мгновенному
+# исчерпанию лимита попыток перезапуска (start-limit-hit) и блокировке юнита.
+Restart=always
+
+# Отсутствуют ограничения ресурсов (cgroups) и директивы песочницы (Hardening).
+
+[Install]
+# ОШИБКА 5: Опечатка в имени стандартного таргета ('multi-users.target' вместо 'multi-user.target').
+# Попытка выполнить 'systemctl enable' завершится ошибкой или сервис никогда не поднимется при старте ОС.
+WantedBy=multi-users.target

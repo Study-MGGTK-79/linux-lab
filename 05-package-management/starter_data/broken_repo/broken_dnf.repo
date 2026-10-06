@@ -1,0 +1,8 @@
+# Пример некорректного файла репозитория для Rocky / Alma / RHEL (DNF/YUM)
+# Задача: найти ошибки (опечатка в URL, отсутствие gpgkey при gpgcheck=1)
+[custom-internal-tools]
+name=Internal Enterprise Tools
+baseurl=https://repo.invalid-internal-domain.local/rpm/x86_64/
+enabled=1
+gpgcheck=1
+# gpgkey=

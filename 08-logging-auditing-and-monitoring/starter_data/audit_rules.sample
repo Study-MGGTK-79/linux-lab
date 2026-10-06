@@ -1,0 +1,42 @@
+# /etc/audit/rules.d/hardening.rules
+# Образец правил аудита ядра Linux по рекомендациям CIS Benchmark
+# ------------------------------------------------------------------------------
+
+# 1. Удаление всех существующих правил перед загрузкой
+-D
+
+# 2. Установка размера кольцевого буфера сообщений kauditd (в записях)
+-b 8192
+
+# 3. Реакция при критическом переполнении буфера:
+# 0 - игнорировать, 1 - printk в dmesg, 2 - паника ядра (kernel panic)
+-f 1
+
+# 4. Аудит модификации учетных записей и групп
+-w /etc/group -p wa -k identity
+-w /etc/passwd -p wa -k identity
+-w /etc/gshadow -p wa -k identity
+-w /etc/shadow -p wa -k identity
+-w /etc/security/opasswd -p wa -k identity
+
+# 5. Аудит повышения привилегий и конфигурации sudoers
+-w /etc/sudoers -p wa -k scope
+-w /etc/sudoers.d/ -p wa -k scope
+
+# 6. Аудит изменений сетевого окружения хоста
+-a always,exit -F arch=b64 -S sethostname,setdomainname -k system_locale
+-w /etc/issue -p wa -k system_locale
+-w /etc/issue.net -p wa -k system_locale
+-w /etc/hosts -p wa -k system_locale
+-w /etc/network/ -p wa -k system_locale
+
+# 7. Аудит системных вызовов удаления файлов неавторизованными пользователями
+-a always,exit -F arch=b64 -S unlink,unlinkat,rename,renameat -F exit=-EACCES -F auid>=1000 -F auid!=unset -k unauthorized_file_deletion
+-a always,exit -F arch=b64 -S unlink,unlinkat,rename,renameat -F exit=-EPERM -F auid>=1000 -F auid!=unset -k unauthorized_file_deletion
+
+# 8. Аудит запуска команд через execve интерактивными пользователями
+-a always,exit -F arch=b64 -S execve -F auid>=1000 -F auid!=unset -k user_commands
+
+# 9. Запрет на изменение правил аудита до перезагрузки (CIS 4.1.18)
+# ВНИМАНИЕ: раскомментируйте ТОЛЬКО в финальном проде!
+# -e 2

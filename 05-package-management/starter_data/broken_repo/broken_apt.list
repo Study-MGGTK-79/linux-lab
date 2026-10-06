@@ -1,0 +1,4 @@
+# Пример сломанного репозитория для Debian/Ubuntu (APT)
+# Задача: найти и исправить 2 критические ошибки (несуществующий релиз дистрибутива и синтаксис компонентов)
+deb http://archive.ubuntu.com/ubuntu/ jammy-supernonexistent main
+deb http://archive.ubuntu.com/ubuntu/ noble main restricted universe

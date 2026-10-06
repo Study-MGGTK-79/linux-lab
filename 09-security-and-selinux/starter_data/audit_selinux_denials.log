@@ -1,0 +1,15 @@
+type=AVC msg=audit(1728121010.104:412): avc:  denied  { read } for  pid=1420 comm="nginx" name="index.html" dev="sda1" ino=918273 scontext=system_u:system_r:httpd_t:s0 tcontext=unconfined_u:object_r:default_t:s0 tclass=file permissive=0
+type=SYSCALL msg=audit(1728121010.104:412): arch=c000003e syscall=257 success=no exit=-13 a0=ffffff9c a1=7ffd1a2b3c40 a2=80000 a3=0 items=1 ppid=1418 pid=1420 auid=4294967295 uid=996 gid=994 euid=996 suid=996 fsuid=996 egid=994 sgid=994 fsgid=994 tty=(none) ses=4294967295 comm="nginx" exe="/usr/sbin/nginx" subj=system_u:system_r:httpd_t:s0 key=(null)
+type=PATH msg=audit(1728121010.104:412): item=0 name="/srv/custom_app/public/index.html" inode=918273 dev=08:01 mode=0100644 ouid=996 ogid=994 rdev=00:00 nametype=NORMAL
+
+type=AVC msg=audit(1728121055.221:415): avc:  denied  { name_bind } for  pid=1418 comm="nginx" src=8088 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:unreserved_port_t:s0 tclass=tcp_socket permissive=0
+type=SYSCALL msg=audit(1728121055.221:415): arch=c000003e syscall=49 success=no exit=-13 a0=7 a1=55b2d109f2b0 a2=10 a3=7ffd1a2b3bb0 items=0 ppid=1 pid=1418 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="nginx" exe="/usr/sbin/nginx" subj=system_u:system_r:httpd_t:s0 key=(null)
+
+type=AVC msg=audit(1728121112.540:420): avc:  denied  { name_connect } for  pid=1420 comm="nginx" dest=3000 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:ntop_port_t:s0 tclass=tcp_socket permissive=0
+type=SYSCALL msg=audit(1728121112.540:420): arch=c000003e syscall=42 success=no exit=-13 a0=a a1=55b2d10a80e0 a2=10 a3=0 items=0 ppid=1418 pid=1420 auid=4294967295 uid=996 gid=994 euid=996 suid=996 fsuid=996 egid=994 sgid=994 fsgid=994 tty=(none) ses=4294967295 comm="nginx" exe="/usr/sbin/nginx" subj=system_u:system_r:httpd_t:s0 key=(null)
+
+type=AVC msg=audit(1728121190.892:435): avc:  denied  { name_connect } for  pid=1850 comm="httpd" dest=3306 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:mysqld_port_t:s0 tclass=tcp_socket permissive=0
+type=SYSCALL msg=audit(1728121190.892:435): arch=c000003e syscall=42 success=no exit=-13 a0=3 a1=7ffd9820e1a0 a2=10 a3=0 items=0 ppid=1848 pid=1850 auid=4294967295 uid=48 gid=48 euid=48 suid=48 fsuid=48 egid=48 sgid=48 fsgid=48 tty=(none) ses=4294967295 comm="httpd" exe="/usr/sbin/httpd" subj=system_u:system_r:httpd_t:s0 key=(null)
+
+# AppArmor telemetry comparison record:
+# Oct 05 08:45:10 srv-app01 kernel: [ 4512.981240] audit: type=1400 audit(1728121210.012:440): apparmor="DENIED" operation="open" class="file" profile="/usr/local/bin/payment_worker" name="/etc/shadow" pid=2415 comm="payment_worker" requested_mask="r" denied_mask="r" fsuid=1002 ouid=0

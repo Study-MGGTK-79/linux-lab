@@ -1,0 +1,70 @@
+# ==============================================================================
+# УЯЗВИМАЯ КОНФИГУРАЦИЯ SSH-СЕРВЕРА (ДЛЯ ПРОВЕДЕНИЯ АУДИТА И ХАРДЕНИНГА)
+# ВНИМАНИЕ: Данный файл содержит критические уязвимости и небезопасные параметры!
+# Использовать исключительно в учебных целях в изолированном окружении.
+# ==============================================================================
+
+# 1. Сетевые параметры
+Port 22
+ListenAddress 0.0.0.0
+ListenAddress ::
+Protocol 2
+
+# 2. Логирование
+LogLevel INFO
+SyslogFacility AUTH
+
+# 3. Аутентификация и управление доступом (КРИТИЧЕСКИЕ ДЕФЕКТЫ)
+# Ошибка: Разрешен прямой вход суперпользователя
+PermitRootLogin yes
+
+# Ошибка: Отключена проверка прав доступа к домашним директориям и ключам
+StrictModes no
+
+# Ошибка: Огромное количество попыток подбора пароля
+MaxAuthTries 10
+
+# Ошибка: Длительный таймаут ожидания ввода учетных данных (вектор для DoS/Slowloris)
+LoginGraceTime 300
+
+# Ошибка: Разрешена небезопасная парольная аутентификация
+PasswordAuthentication yes
+
+# Ошибка: Разрешен вход с пустыми паролями!
+PermitEmptyPasswords yes
+
+# Ошибка: Включена аутентификация на основе доверия хостов (уязвимо к спуфингу)
+HostbasedAuthentication yes
+IgnoreRhosts no
+
+# Ошибка: Не ограничены пользователи, имеющие право на вход (отсутствует AllowUsers / AllowGroups)
+
+# 4. Проброс сессий и туннелирование
+# Ошибка: Включен проброс графических сессий (риск перехвата нажатий клавиш и буфера)
+X11Forwarding yes
+X11DisplayOffset 10
+X11UseLocalhost no
+
+# Включены TCP и Agent Forwarding
+AllowTcpForwarding yes
+AllowAgentForwarding yes
+
+# 5. Управление сессиями и таймаутами
+# Ошибка: Отключена отправка keepalive (зависшие сессии остаются в памяти бесконечно)
+ClientAliveInterval 0
+ClientAliveCountMax 3
+
+# 6. Устаревшие и небезопасные криптографические наборы (Legacy & Broken Ciphers)
+# Ошибка: Использование 3DES, CBC-режимов шифрования и уязвимых KEX/MAC
+KexAlgorithms diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+Ciphers 3des-cbc,aes128-cbc,aes192-cbc,aes256-cbc
+MACs hmac-md5,hmac-sha1,hmac-ripemd160
+
+# 7. Баннеры и информационные утечки
+# Ошибка: Отображение информации о версии ОС перед аутентификацией
+PrintMotd yes
+PrintLastLog yes
+Banner none
+
+# 8. Подсистемы
+Subsystem sftp /usr/lib/openssh/sftp-server

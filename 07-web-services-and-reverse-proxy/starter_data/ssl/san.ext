@@ -1,0 +1,11 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = portal.lab.local
+DNS.2 = api.lab.local
+DNS.3 = *.lab.local
+DNS.4 = localhost
+IP.1 = 127.0.0.1
